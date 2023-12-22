@@ -1,6 +1,6 @@
 This config will populate the following:
 
-- !Suggested (random, trending, popular, top-rated, most watched)
+- !Suggested (random, recently added|released, trending, popular, top-rated, most watched)
 - !Seasonal *
 - Parental
 - Documentaries
@@ -33,28 +33,23 @@ git clone https://github.com/0x5f3/pmm.config config
 
 **Usage:**
 
-Initial run to populate collections:
+The initial process for populating collections:
 ```
 python plex_meta_manager.py --config config/movie.yml --collections-only --run --ignore-schedules
 python plex_meta_manager.py --config config/show.yml --collections-only --run --ignore-schedules
 ```
-After a successful initial run:
+Following a successful initial run:
 
 ```
 python plex_meta_manager.py --config config/movie.yml --collections-only --run
 python plex_meta_manager.py --config config/show.yml --collections-only --run
 ```
-
-**Notes:**
-
-*If you intend to use the Parental collection, enable "item_label.sync: Parental" (line 38, 1_parental.yml) on the initial run and disable for subsequent runs. This prevents ppm from relabelling all of the items with every run, whereas disabling will only label new items added.*
-
 <br/>
-After a successful run, you will have something similar to this:
+A successful run will result in something similar to this:
 <br/>
 <br/>
 
-![movies](/assets/_/movies.png)
+![movies](/assets/_/_movies.png)
 <br/>
   
-![shows](/assets/_/shows.png)
+![shows](/assets/_/_shows.png)
