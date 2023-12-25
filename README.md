@@ -19,11 +19,13 @@ This config will populate the following:
 ( * = movies only )
 ( ^ = shows only )
 
-
 For more details on what each section contains: [movies](MOVIES.md) | [shows](SHOWS.md)
 <br/>
-<br/>
-<br/>
+
+**Requirements:**
+
+ - APP/API keys for: mdblist, tmdb, trakt
+
 **Install:**
 
 clone into PMM's root directory:
