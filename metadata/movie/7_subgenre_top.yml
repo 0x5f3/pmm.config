@@ -202,8 +202,8 @@ collections:
                     rating.gte: 2,
                     votes.gte: 100,
                     language: "en",
-                    letterboxd_list: "theme-boxing"
-#                    imdb_extra_1: "https://www.imdb.com/search/title/?title_type=feature,tv_movie&user_rating=2.0,10.0&num_votes=100,&keywords=boxing-champion&languages=en&sort=user_rating,desc"
+                    letterboxd_list: "theme-boxing",
+                    imdb_extra_1: "https://www.imdb.com/search/keyword/?title_type=movie,tv_movie&user_rating=2.0,10.0&num_votes=100,&keywords=boxing-champion&languages=en&sort=user_rating,desc"
                 }
 
   "Top Rated in Bugs":
@@ -614,9 +614,9 @@ collections:
                     rating.gte: 5,
                     votes.gte: 1000,
                     language: "en",
-                    letterboxd_list: "theme-hostage"
-#                    imdb_extra_1: "https://www.imdb.com/search/title/?title_type=feature,tv_movie&user_rating=5.0,10.0&num_votes=1000,&keywords=hostage,kidnapping&languages=en&sort=user_rating,desc"
-                }
+                    letterboxd_list: "theme-hostage",
+                    imdb_extra_1: "https://www.imdb.com/search/keyword/?title_type=movie,tv_movie&user_rating=5.0,10.0&num_votes=1000,&keywords=hostage,kidnapping&languages=en&sort=user_rating,desc"
+                 }
 
   "Top Rated in Hustle":
     summary: "Top rated movies in Hustle"
@@ -641,7 +641,7 @@ collections:
                     keyword: "martial-artist,martial-arts-master,martial-arts",
                     type: "movie,tv_movie",
                     rating.gte: 5,
-                    votes: "1000",
+                    votes.gte: 1000,
                     language: "en",
                     letterboxd_list: "theme-martial-arts",
                     imdb_extra_1: "https://www.imdb.com/list/ls000099643",
@@ -1063,10 +1063,10 @@ collections:
                     language: "en",
                     letterboxd_list: "theme-romantic-comedy"
                 }
-
     filters:
      genre: Comedy
      year.gte: 1960
+
   "Top Rated in Romantic Drama":
     summary: "Top rated movies in Romantic Drama"
     file_poster: config/assets/7_subgenre_top/subgenre_top_romantic-drama.png
@@ -1080,10 +1080,10 @@ collections:
                     language: "en",
                     letterboxd_list: "theme-romantic-drama"
                 }
-
     filters:
      genre: Drama
      year.gte: 1960
+
   "Top Rated in Samurai":
     summary: "Top rated movies in Samurai"
     file_poster: config/assets/7_subgenre_top/subgenre_top_samurai.png
@@ -1441,8 +1441,7 @@ collections:
     schedule: weekly(sunday)
     template: {
                     name: sub_genre,
-                    keyword: "werewolf",
-                    genre.any: "fantasy,horror",
+                    keyword.any: "werewolf,werewolves",
                     type: "movie,tv_movie",
                     rating.gte: 5,
                     votes.gte: 1000,
