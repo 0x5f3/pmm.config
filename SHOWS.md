@@ -1,7 +1,8 @@
 - 1_suggested.yml
   - Random TV shows
-  - Recently Released TV shows (English)
   - Recently Added TV shows (English)
+  - Recently Released TV shows (English)
+  - Suggested Movies
   - Trending TV shows
   - Popular TV shows
   - Top Rated TV shows

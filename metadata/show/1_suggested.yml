@@ -14,13 +14,54 @@ templates:
   trakt:
     cache_builders: 4
     collection_mode: hide
-    collection_order: custom
     delete_not_scheduled: false
     sort_title: "+1_<<num>>_<<collection_name>>"
     sync_mode: sync
     visible_home: false
     visible_library: false
     visible_shared: false
+    trakt_list:
+      - <<trakt_list_extra_01>>
+      - <<trakt_list_extra_02>>
+      - <<trakt_list_extra_03>>
+      - <<trakt_list_extra_04>>
+      - <<trakt_list_extra_05>>
+      - <<trakt_list_extra_06>>
+      - <<trakt_list_extra_07>>
+      - <<trakt_list_extra_08>>
+      - <<trakt_list_extra_09>>
+      - <<trakt_list_extra_10>>
+      - <<trakt_list_extra_11>>
+      - <<trakt_list_extra_12>>
+      - <<trakt_list_extra_13>>
+      - <<trakt_list_extra_14>>
+      - <<trakt_list_extra_15>>
+      - <<trakt_list_extra_16>>
+      - <<trakt_list_extra_17>>
+      - <<trakt_list_extra_18>>
+      - <<trakt_list_extra_19>>
+      - <<trakt_list_extra_20>>
+    optional:
+      - trakt_list_extra_01
+      - trakt_list_extra_02
+      - trakt_list_extra_03
+      - trakt_list_extra_04
+      - trakt_list_extra_05
+      - trakt_list_extra_06
+      - trakt_list_extra_07
+      - trakt_list_extra_08
+      - trakt_list_extra_09
+      - trakt_list_extra_10
+      - trakt_list_extra_11
+      - trakt_list_extra_12
+      - trakt_list_extra_13
+      - trakt_list_extra_14
+      - trakt_list_extra_15
+      - trakt_list_extra_16
+      - trakt_list_extra_17
+      - trakt_list_extra_18
+      - trakt_list_extra_19
+      - trakt_list_extra_20
 
   mdblist:
     cache_builders: 6
@@ -57,21 +98,7 @@ collections:
         year.gte: 1940
       sort_by: random
       limit: 250
-
-  "Recently Released TV shows":
-    summary: "Recently added TV shows"
-    file_poster: config/assets/1_suggested/suggested_recently-released.png
-    visible_library: true
-    template: {
-                    name: plex,
-                    num: 1
-                }
-    smart_filter:
-      any:
-        audio_language: English, english
-      sort_by: release.desc
-      limit: 200
-
+      
   "Recently Added TV shows":
     summary: "Recently added TV shows"
     file_poster: config/assets/1_suggested/suggested_recently-added.png
@@ -87,6 +114,34 @@ collections:
         audio_language: English, english
       sort_by: added.desc
       limit: 200
+
+  "Recently Released TV shows":
+    summary: "Recently added TV shows"
+    file_poster: config/assets/1_suggested/suggested_recently-released.png
+    visible_library: true
+    template: {
+                    name: plex,
+                    num: 1
+                }
+    smart_filter:
+      any:
+        audio_language: English, english
+      sort_by: release.desc
+      limit: 200
+      
+  "Suggested TV shows":
+    collection_order: random
+    summary: "Based on watched and favourited TV shows"
+    file_poster: config/assets/1_suggested/suggested_suggested.png
+    template: {
+                    name: trakt,
+                    num: 2
+#                    trakt_list_extra_01: "https://trakt.tv/users/########/lists/tv-recommendations-couchmoney-tv",
+#                    trakt_list_extra_02: "https://trakt.tv/users/########/lists/tv-based-on-recently-watched-couchmoney-tv"
+                }
+    trakt_userlist:
+      - userlist: recommendations
+        user: me
 
   "Trending TV shows":
     summary: "TV shows trending across the internet"
@@ -121,7 +176,7 @@ collections:
     schedule: daily
     template: {
                     name: mdblist,
-                    num: 4,
+                    num: 3,
                     mdblist_user: "archivist",
                     mdblist_list: "tv-top-rated",
                     mdblist_sort: "imdbrating.desc"
@@ -131,10 +186,11 @@ collections:
   "Most Watched Daily":
     summary: "TV shows trending across the internet"
     file_poster: config/assets/1_suggested/suggested_most-watched-daily.png
+    collection_order: custom
     schedule: daily
     template: {
                     name: trakt,
-                    num: 5
+                    num: 4
                 }
     trakt_chart:
       chart: watched
@@ -146,10 +202,11 @@ collections:
   "Most Watched Weekly":
     summary: "TV shows trending across the internet"
     file_poster: config/assets/1_suggested/suggested_most-watched-weekly.png
+    collection_order: custom
     schedule: daily
     template: {
                     name: trakt,
-                    num: 6
+                    num: 5
                 }
     trakt_chart:
       chart: watched
@@ -161,10 +218,11 @@ collections:
   "Most Watched Monthly":
     summary: "TV shows trending across the internet"
     file_poster: config/assets/1_suggested/suggested_most-watched-monthly.png
+    collection_order: custom
     schedule: weekly(sunday)
     template: {
                     name: trakt,
-                    num: 7
+                    num: 6
                 }
     trakt_chart:
       chart: watched
@@ -176,10 +234,11 @@ collections:
   "Most Watched Yearly":
     summary: "TV shows trending across the internet"
     file_poster: config/assets/1_suggested/suggested_most-watched-yearly.png
+    collection_order: custom
     schedule: weekly(sunday)
     template: {
                     name: trakt,
-                    num: 8
+                    num: 7
                 }
     trakt_chart:
       chart: watched
