@@ -102,8 +102,6 @@ collections:
   "Recently Added TV shows":
     summary: "Recently added TV shows"
     file_poster: config/assets/1_suggested/suggested_recently-added.png
-    visible_home: true
-    visible_shared: true
     visible_library: true
     template: {
                     name: plex,
