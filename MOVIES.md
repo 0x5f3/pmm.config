@@ -2,7 +2,7 @@
   - Random Movies
   - Recently Added Movies (English)
   - Recently Released Movies (English)
-  - Sugegsted Movies
+  - Suggested Movies
   - Trending Movies
   - Popular Movies
   - Top Rated Movies
