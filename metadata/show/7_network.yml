@@ -321,7 +321,7 @@ collections:
     file_poster: config/assets/7_network/network_starz.png
     template: {
                 name: network,
-                network: "318, 758, 5594, 6222, 6292"
+                network: "318, 758, 6222, 6292"
                 }
 
   "Syfy":
