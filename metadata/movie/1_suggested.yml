@@ -142,6 +142,32 @@ collections:
     trakt_userlist:
       - userlist: recommendations
         user: me
+    trakt_chart:
+      - chart: recommended
+        time_period: daily
+        languages: en
+        countries: us, gb, ie, ca, au, nz
+        limit: 25
+      - chart: recommended
+        time_perid: weekly
+        languages: en
+        countries: us, gb, ie, ca, au, nz
+        limit: 50
+      - chart: recommended
+        time_period: monthly
+        languages: en
+        countries: us, gb, ie, ca, au, nz
+        limit: 100
+      - chart: recommended
+        time_period: yearly
+        languages: en
+        countries: us, gb, ie, ca, au, nz
+        limit: 150
+      - chart: recommended
+        time_period: all
+        languages: en
+        countries: us, gb, ie, ca, au, nz
+        limit: 200
         
   "Trending Movies":
     summary: "Movies trending across the internet"
