@@ -114,7 +114,7 @@ collections:
       limit: 200
 
   "Recently Released TV shows":
-    summary: "Recently added TV shows"
+    summary: "Recently released TV shows"
     file_poster: config/assets/1_suggested/suggested_recently-released.png
     visible_library: true
     template: {
