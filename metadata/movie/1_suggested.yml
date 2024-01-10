@@ -116,7 +116,7 @@ collections:
       limit: 200
 
   "Recently Released Movies":
-    summary: "Recently added movies"
+    summary: "Recently released movies"
     file_poster: config/assets/1_suggested/suggested_recently-released.png
     visible_library: true
     template: {
