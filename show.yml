@@ -104,7 +104,7 @@ tmdb:
   region:
 mdblist:
   apikey:
-  cache_expiration: 1
+  cache_expiration: 60
 trakt:
   client_id:
   client_secret:
