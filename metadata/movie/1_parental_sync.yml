@@ -25,7 +25,7 @@ templates:
 collections:
   "Parental: All":
     summary: "Movies suitable for children"
-    file_poster: config/assets/1_parental/parental-all.png
+    file_poster: config/assets/1_parental/parental_all.png
     template: {
                     name: mdblist,
                     num: "A",
