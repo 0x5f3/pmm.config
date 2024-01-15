@@ -2,7 +2,6 @@
 
 templates:
   seasonal:
-    cache_builders: 4
     collection_order: critic_rating.desc
     delete_not_scheduled: true
     limit: 1000
@@ -51,7 +50,7 @@ templates:
 
 collections:
   "Valentine's Day Movies":
-    file_poster: config/assets/1_seasonal/seasonal_st-valentines.png
+    file_poster: config/assets/1_seasonal/seasonal_valentines-day.png
     schedule: range(02/10-02/14)
     template: {
                     name: seasonal,
@@ -63,7 +62,7 @@ collections:
                 }
 
   "St. Patrick's Day Movies":
-    file_poster: config/assets/1_seasonal/seasonal_st-patricks.png
+    file_poster: config/assets/1_seasonal/seasonal_st-patricks-day.png
     schedule: range(03/16-03/18)
     template: {
                     name: seasonal,

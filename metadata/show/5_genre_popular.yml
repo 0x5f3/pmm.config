@@ -2,7 +2,6 @@
 
 templates:
   genre_popular:
-    cache_builders: 6
     collection_mode: hide
     collection_order: custom
     delete_not_scheduled: false
@@ -196,6 +195,18 @@ collections:
                     popularity.gte: 5,
                     language: "en"
                 }
+
+  "Popular in Sport":
+    summary: "Popular TV shows in Sport"
+    file_poster: config/assets/5_genre_popular/genre_popular_sport.png
+    template: {
+                    name: genre_popular,
+                    type: "tv_series,tv_mini_series,tv_special",
+                    genre: "sport",
+                    popularity.gte: 5,
+                    language: "en"
+                }
+
   "Popular in Thriller":
     summary: "Popular TV shows in Thriller"
     file_poster: config/assets/5_genre_popular/genre_popular_thriller.png

@@ -2,15 +2,14 @@
 
 templates:
   plex:
+    collection_mode: hide
+    delete_not_scheduled: false
+    label.sync: Parental
     sort_title: "+1_<<num>>_<<collection_name>>"
     sync_mode: sync
-    collection_mode: hide
-    label.sync: Parental
     visible_home: false
-    visible_shared: false
     visible_library: false
-    delete_not_scheduled: false
-    cache_builders: 4
+    visible_shared: false
 
 collections:
   "Parental: Random":

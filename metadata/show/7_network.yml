@@ -2,7 +2,6 @@
 
 templates:
   network:
-    cache_builders: 4
     collection_order: alpha
     sort_title: "+7_<<collection_name>>"
     sync_mode: sync

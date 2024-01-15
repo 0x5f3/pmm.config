@@ -2,7 +2,6 @@
 
 templates:
   genre_top:
-    cache_builders: 6
     collection_mode: hide
     collection_order: custom
     delete_not_scheduled: false
@@ -210,6 +209,18 @@ collections:
                     name: genre_top,
                     type: "tv_series,tv_mini_series,tv_special",
                     genre: "sci-fi",
+                    rating.gte: 5,
+                    votes.gte: 10000,
+                    language: "en"
+                }
+
+  "Top Rated in Sport":
+    summary: "Top rated TV shows in Sport"
+    file_poster: config/assets/6_genre_top/genre_top-rated_sport.png
+    template: {
+                    name: genre_top,
+                    type: "tv_series,tv_mini_series,tv_special",
+                    genre: "sport",
                     rating.gte: 5,
                     votes.gte: 10000,
                     language: "en"

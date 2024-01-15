@@ -2,7 +2,6 @@
 
 templates:
   company:
-    cache_builders: 6
     collection_mode: hide
     collection_order: alpha
     delete_not_scheduled: false

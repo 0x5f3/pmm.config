@@ -2,7 +2,6 @@
 
 templates:
   year_top:
-    cache_builders: 6
     collection_mode: hide
     collection_order: custom
     delete_not_scheduled: false
