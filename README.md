@@ -20,7 +20,6 @@ This config will populate the following:
 ( ^ = shows only )
 
 For more details on what each section contains: [movies](MOVIES.md) | [shows](SHOWS.md)
-<br/>
 
 **Requirements:**
 
@@ -28,7 +27,6 @@ For more details on what each section contains: [movies](MOVIES.md) | [shows](SH
 
 **Install:**
 
-clone into PMM's root directory:
 ```
 git clone https://github.com/0x5f3/pmm.config config
 ```
@@ -36,15 +34,17 @@ git clone https://github.com/0x5f3/pmm.config config
 **Usage:**
 
 The initial process for populating collections:
+
 ```
-python plex_meta_manager.py --config config/movie.yml --collections-only --run --ignore-schedules
-python plex_meta_manager.py --config config/show.yml --collections-only --run --ignore-schedules
+docker run --rm -it -v ./config:/config meisnate12/plex-meta-manager --config config/movie.yml --collection-only --run --ignore-schedules
+docker run --rm -it -v ./config:/config meisnate12/plex-meta-manager --config config/show.yml --collection-only --run --ignore-schedules
 ```
+
 Following a successful initial run:
 
 ```
-python plex_meta_manager.py --config config/movie.yml --collections-only --run
-python plex_meta_manager.py --config config/show.yml --collections-only --run
+docker run --rm -it -v ./config:/config meisnate12/plex-meta-manager --config config/movie.yml --collection-only --run
+docker run --rm -it -v ./config:/config meisnate12/plex-meta-manager --config config/show.yml --collection-only --run
 ```
 <br/>
 A successful run will result in something similar to this:
