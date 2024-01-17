@@ -53,5 +53,5 @@ A successful run will result in something similar to this:
 
 ![movies](/assets/_/_movies.png)
 <br/>
-  
+
 ![shows](/assets/_/_shows.png)

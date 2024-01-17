@@ -95,7 +95,7 @@ collections:
         critic_rating.gte: 4
       sort_by: random
       limit: 250
-      
+
   "Recently Added Movies":
     summary: "Recently added movies"
     file_poster: config/assets/1_suggested/suggested_recently-added.png
@@ -125,7 +125,7 @@ collections:
         audio_language: English, english
       sort_by: release.desc
       limit: 200
-      
+
   "Suggested Movies":
     collection_order: random
     summary: "Based on watched and favourited movies"
@@ -165,7 +165,7 @@ collections:
         languages: en
         countries: us, gb, ie, ca, au, nz
         limit: 200
-        
+
   "Trending Movies":
     summary: "Movies trending across the internet"
     file_poster: config/assets/1_suggested/suggested_trending.png

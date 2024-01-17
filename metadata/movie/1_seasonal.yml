@@ -2,6 +2,7 @@
 
 templates:
   seasonal:
+    collection_mode: hide
     collection_order: critic_rating.desc
     delete_not_scheduled: true
     limit: 1000

@@ -77,6 +77,7 @@
   - Popular in Mystery
   - Popular in Romance
   - Popular in Sci-Fi
+  - Popular in Sport
   - Popular in Thriller
   - Popular in War
   - Popular in Western
@@ -97,10 +98,11 @@
   - Top Rated in Mystery
   - Top Rated in Romance
   - Top Rated in Sci-Fi
+  - Top Rated in Sport
   - Top Rated in Thriller
   - Top Rated in War
   - Top Rated in Western
-  
+
 - 7_network.yml
   - A&E
   - ABC

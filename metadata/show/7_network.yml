@@ -2,6 +2,7 @@
 
 templates:
   network:
+    collection_mode: hide
     collection_order: alpha
     sort_title: "+7_<<collection_name>>"
     sync_mode: sync

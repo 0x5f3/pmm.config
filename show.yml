@@ -46,7 +46,7 @@ settings:
   download_url_assets: true
   ignore_ids:
   ignore_imdb_ids:
-  item_refresh: false  
+  item_refresh: false
   item_refresh_delay: 3
   minimum_items: 1
   missing_only_released: false
