@@ -26,7 +26,7 @@ collections:
     file_poster: config/assets/2_year_top/year_top-rated_2024.png
     template: {
                     name: year_top,
-                    num: "M",
+                    num: "N",
                     type: "movie,tv_movie",
                     language: "en",
                     release.after: 2024-01-01,
