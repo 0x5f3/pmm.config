@@ -26,7 +26,7 @@ collections:
     file_poster: config/assets/2_year_top/year_top-rated_2024.png
     template: {
                     name: year_top,
-                    num: "M",
+                    num: "N",
                     type: "tv_series,tv_mini_series,tv_special",
                     release.after: 2024-01-01,
                     release.before: 2024-12-31,
