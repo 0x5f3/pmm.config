@@ -55,7 +55,7 @@ collections:
 
   "Stand-up: Recently Released":
     summary: "Recently released Stand-up"
-    file_poster: config/assets/1_standup/stand-up_recently-added.png
+    file_poster: config/assets/1_standup/stand-up_recently-released.png
     template: {
                     name: plex,
                     num: "M"
@@ -68,7 +68,7 @@ collections:
 
   "Stand-up: Recently Added":
     summary: "Recently added Stand-up"
-    file_poster: config/assets/1_standup/stand-up_recently-released.png
+    file_poster: config/assets/1_standup/stand-up_recently-added.png
     template: {
                     name: plex,
                     num: "N"
