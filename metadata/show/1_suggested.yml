@@ -102,7 +102,7 @@ collections:
     visible_library: true
     template: {
                     name: plex,
-                    num: 1
+                    num: 0
                 }
     smart_filter:
       any:
@@ -116,7 +116,7 @@ collections:
     visible_library: true
     template: {
                     name: plex,
-                    num: 1
+                    num: 0
                 }
     smart_filter:
       any:
@@ -130,7 +130,7 @@ collections:
     file_poster: config/assets/1_suggested/suggested_suggested.png
     template: {
                     name: trakt,
-                    num: 2
+                    num: 0
 #                    trakt_list_extra_01: "https://trakt.tv/users/########/lists/tv-recommendations-couchmoney-tv",
 #                    trakt_list_extra_02: "https://trakt.tv/users/########/lists/tv-based-on-recently-watched-couchmoney-tv"
                 }
@@ -170,7 +170,7 @@ collections:
     schedule: daily
     template: {
                     name: mdblist,
-                    num: 2,
+                    num: 0,
                     mdblist_user: "archivist",
                     mdblist_list: "tv-trending",
                     mdblist_sort: "rank.desc"
@@ -184,7 +184,7 @@ collections:
     schedule: daily
     template: {
                     name: mdblist,
-                    num: 3,
+                    num: 1,
                     mdblist_user: "archivist",
                     mdblist_list: "tv-popular",
                     mdblist_sort: "imdbpopular.desc"
@@ -197,12 +197,65 @@ collections:
     schedule: daily
     template: {
                     name: mdblist,
-                    num: 3,
+                    num: 1,
                     mdblist_user: "archivist",
                     mdblist_list: "tv-top-rated",
                     mdblist_sort: "imdbrating.desc"
                 }
     limit: 500
+
+  "Unwatched: Random TV shows":
+    summary: "Random selection of TV shows"
+    file_poster: config/assets/1_suggested/suggested_unwatched_random.png
+    template: {
+                    name: plex,
+                    num: 1
+                }
+    smart_filter:
+      all:
+        year.gte: 1940
+        unplayed: true
+      sort_by: random
+      limit: 250
+
+  "Unwatched: Suggested TV shows":
+    summary: "Based on watched and favourited TV shows"
+    file_poster: config/assets/1_suggested/suggested_unwatched_suggested.png
+    template: {
+                    name: plex,
+                    num: 1
+                }
+    smart_filter:
+      all:
+        collection: "Suggested TV shows"
+        unplayed: true
+      sort_by: random
+
+  "Unwatched: Popular TV shows":
+    summary: "Popular TV shows across the internet"
+    file_poster: config/assets/1_suggested/suggested_unwatched_popular.png
+    template: {
+                    name: plex,
+                    num: 2
+                }
+    smart_filter:
+      all:
+        collection: "Popular TV shows"
+        unplayed: true
+      sort_by: random
+
+  "Unwatched: Top Rated TV shows":
+    summary: "Top rated TV shows across the internet"
+    file_poster: config/assets/1_suggested/suggested_unwatched_top-rated.png
+    template: {
+                    name: plex,
+                    num: 2
+                }
+    smart_filter:
+      all:
+        collection: "Top Rated TV shows"
+        unplayed: true
+      sort_by: random
 
   "Most Watched Daily":
     summary: "TV shows trending across the internet"
@@ -211,7 +264,7 @@ collections:
     schedule: daily
     template: {
                     name: trakt,
-                    num: 4
+                    num: 3
                 }
     trakt_chart:
       chart: watched
@@ -227,7 +280,7 @@ collections:
     schedule: daily
     template: {
                     name: trakt,
-                    num: 5
+                    num: 3
                 }
     trakt_chart:
       chart: watched
@@ -243,7 +296,7 @@ collections:
     schedule: weekly(sunday)
     template: {
                     name: trakt,
-                    num: 6
+                    num: 4
                 }
     trakt_chart:
       chart: watched
@@ -259,7 +312,7 @@ collections:
     schedule: weekly(sunday)
     template: {
                     name: trakt,
-                    num: 7
+                    num: 4
                 }
     trakt_chart:
       chart: watched
