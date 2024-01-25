@@ -15,7 +15,7 @@
 - TMDB collections *
 - Network ^
 
-( ! = enabled by default)
+( ! = enabled by default )
 ( * = movies only )
 ( ^ = shows only )
 ```
