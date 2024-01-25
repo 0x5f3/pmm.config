@@ -25,9 +25,9 @@ collections:
       sort_by: random
       limit: 250
 
-  "Parental: Recently Released":
-    summary: "Recently released TV shows suitable for children"
-    file_poster: config/assets/1_parental/parental_recently-released.png
+  "Parental: Recently Added":
+    summary: "Recently added TV shows suitable for children"
+    file_poster: config/assets/1_parental/parental_recently-added.png
     template: {
                     name: plex,
                     num: "C"
@@ -35,12 +35,12 @@ collections:
     smart_filter:
       all:
         collection: "Parental: All"
-      sort_by: release.desc
-      limit: 250
+      sort_by: added.desc
+      limit: 100
 
-  "Parental: Recently Added":
-    summary: "Recently added TV shows suitable for children"
-    file_poster: config/assets/1_parental/parental_recently-added.png
+  "Parental: Recently Released":
+    summary: "Recently released TV shows suitable for children"
+    file_poster: config/assets/1_parental/parental_recently-released.png
     template: {
                     name: plex,
                     num: "D"
@@ -48,8 +48,8 @@ collections:
     smart_filter:
       all:
         collection: "Parental: All"
-      sort_by: added.desc
-      limit: 100
+      sort_by: release.desc
+      limit: 250
 
   "Parental: Top Rated":
     summary: "Top rated TV shows suitable for children"
