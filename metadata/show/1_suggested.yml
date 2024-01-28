@@ -124,6 +124,19 @@ collections:
       sort_by: release.desc
       limit: 200
 
+  "Recommended Movies":
+    collection_order: random
+    summary: "Based on personally favourited TV shows"
+    file_poster: config/assets/1_suggested/suggested_recommended.png
+    template: {
+                    name: trakt,
+                    num: 0
+#                    trakt_list_extra_01: "https://trakt.tv/users/########/lists/tv-recommendations",
+                }
+    trakt_userlist:
+      - userlist: favorites
+        user: me
+
   "Suggested TV shows":
     collection_order: random
     summary: "Based on watched and favourited TV shows"
@@ -134,9 +147,6 @@ collections:
 #                    trakt_list_extra_01: "https://trakt.tv/users/########/lists/tv-recommendations-couchmoney-tv",
 #                    trakt_list_extra_02: "https://trakt.tv/users/########/lists/tv-based-on-recently-watched-couchmoney-tv"
                 }
-    trakt_userlist:
-      - userlist: recommendations
-        user: me
     trakt_chart:
       - chart: recommended
         time_period: daily
@@ -219,6 +229,20 @@ collections:
       collection_filtering: user
       sort_by: random
       limit: 250
+
+  "Unwatched: Recommended TV shows":
+    summary: "Based on personally favourited TV shows"
+    file_poster: config/assets/1_suggested/suggested_unwatched_recommended.png
+    template: {
+                    name: plex,
+                    num: 1
+                }
+    smart_filter:
+      all:
+        collection: "Recommended TV shows"
+        plays.lt: 1
+      collection_filtering: user
+      sort_by: random
 
   "Unwatched: Suggested TV shows":
     summary: "Based on watched and favourited TV shows"
