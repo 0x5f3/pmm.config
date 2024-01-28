@@ -1,3 +1,4 @@
+```
 - 1_suggested.yml
   - Random Movies
   - Recently Added Movies (English)
@@ -255,3 +256,4 @@
 
 - 9_collections.yml
   - TMDb Collections
+```
