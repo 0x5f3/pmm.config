@@ -4,7 +4,7 @@
   - Recently Added Movies (English)
   - Recently Released Movies (English)
   - Recommended Movies (Trakt user's personal favourites)
-  - Suggested Movies (Trakt recommended daily/weekly/monthly/yearly/all charts)
+  - Suggested Movies (Trakt favourited daily/weekly/monthly/yearly/all charts)
   - Trending Movies
   - Popular Movies
   - Top Rated Movies
