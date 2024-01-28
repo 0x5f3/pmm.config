@@ -152,22 +152,22 @@ collections:
         time_period: daily
         languages: en
         countries: us, gb, ie, ca, au, nz
-        limit: 25
+        limit: 5
       - chart: recommended
         time_perid: weekly
         languages: en
         countries: us, gb, ie, ca, au, nz
-        limit: 50
+        limit: 10
       - chart: recommended
         time_period: monthly
         languages: en
         countries: us, gb, ie, ca, au, nz
-        limit: 100
+        limit: 25
       - chart: recommended
         time_period: yearly
         languages: en
         countries: us, gb, ie, ca, au, nz
-        limit: 150
+        limit: 50
       - chart: recommended
         time_period: all
         languages: en
