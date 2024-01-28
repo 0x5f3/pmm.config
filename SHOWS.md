@@ -4,7 +4,7 @@
   - Recently Added TV shows (English)
   - Recently Released TV shows (English)
   - Recommended TV shows (Trakt user's personal favourites)
-  - Suggested TV shows (Trakt recommended daily/weekly/monthly/yearly charts)
+  - Suggested TV shows (Trakt recommended daily/weekly/monthly/yearly/all charts)
   - Trending TV shows
   - Popular TV shows
   - Top Rated TV shows
