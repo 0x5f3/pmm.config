@@ -35,6 +35,7 @@ git clone https://github.com/0x5f3/pmm.config config
 docker run --rm -it -v ./config:/config meisnate12/plex-meta-manager:nightly --config config/movie.yml --collection-only --run --ignore-schedules
 docker run --rm -it -v ./config:/config meisnate12/plex-meta-manager:nightly --config config/show.yml --collection-only --run --ignore-schedules
 ```
+
 ###### Following a successful initial run:
 ```
 docker run --rm -it -v ./config:/config meisnate12/plex-meta-manager:nightly --config config/movie.yml --collection-only --run
