@@ -124,7 +124,7 @@ collections:
       sort_by: release.desc
       limit: 200
 
-  "Recommended Movies":
+  "Recommended TV shows":
     collection_order: random
     summary: "Based on personally favourited TV shows"
     file_poster: config/assets/1_suggested/suggested_recommended.png

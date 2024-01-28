@@ -2,11 +2,13 @@
   - Random Movies
   - Recently Added Movies (English)
   - Recently Released Movies (English)
-  - Suggested Movies
+  - Recommended Movies (Trakt user's personal favourites)
+  - Suggested Movies (Trakt recommended daily/weekly/monthly/yearly charts)
   - Trending Movies
   - Popular Movies
   - Top Rated Movies
   - Unwatched: Random Movies
+  - Unwatched: Recommended Movies
   - Unwatched: Suggested Movies
   - Unwatched: Popular Movies
   - Unwatched: Top Rated Movies

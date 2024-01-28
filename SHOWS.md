@@ -2,11 +2,13 @@
   - Random TV shows
   - Recently Added TV shows (English)
   - Recently Released TV shows (English)
-  - Suggested TV shows
+  - Recommended TV shows (Trakt user's personal favourites)
+  - Suggested TV shows (Trakt recommended daily/weekly/monthly/yearly charts)
   - Trending TV shows
   - Popular TV shows
   - Top Rated TV shows
   - Unwatched: Random TV shows
+  - Unwatched: Recommended TV shows
   - Unwatched: Suggested TV shows
   - Unwatched: Popular TV shows
   - Unwatched: Top Rated TV shows
