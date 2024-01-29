@@ -80,6 +80,28 @@ templates:
       - mdblist_extra_4
       - mdblist_extra_5
 
+  letterboxd:
+    collection_mode: hide
+    collection_order: custom
+    delete_not_scheduled: false
+    sort_title: "+1_<<num>>_<<collection_name>>"
+    sync_mode: sync
+    visible_home: false
+    visible_library: false
+    visible_shared: false
+    letterboxd_list:
+      - <<letterboxd_list_extra_01>>
+      - <<letterboxd_list_extra_02>>
+      - <<letterboxd_list_extra_03>>
+      - <<letterboxd_list_extra_04>>
+      - <<letterboxd_list_extra_05>>
+    optional:
+      - letterboxd_list_extra_01
+      - letterboxd_list_extra_02
+      - letterboxd_list_extra_03
+      - letterboxd_list_extra_04
+      - letterboxd_list_extra_05
+
 collections:
   "Random Movies":
     summary: "Random selection of movies"
@@ -127,20 +149,20 @@ collections:
       limit: 200
 
   "Recommended Movies":
-    collection_order: random
+    collection_order: alpha
     summary: "Based on personally favourited movies"
     file_poster: config/assets/1_suggested/suggested_recommended.png
     template: {
-                    name: trakt,
+                    name: letterboxd,
                     num: 0
-#                    trakt_list_extra_01: "https://trakt.tv/users/########/lists/movies-recommendations",
+#                    letterboxd_list_extra_01: "https://letterboxd.com/########/list/movie-recommendations",
                 }
     trakt_userlist:
       - userlist: favorites
         user: me
 
   "Suggested Movies":
-    collection_order: random
+    collection_order: alpha
     summary: "Based on watched and favourited movies"
     file_poster: config/assets/1_suggested/suggested_suggested.png
     template: {
@@ -244,7 +266,7 @@ collections:
         collection: "Recommended Movies"
         unplayed: true
       collection_filtering: user
-      sort_by: random
+      sort_by: title.asc
 
   "Unwatched: Suggested Movies":
     summary: "Based on watched and favourited movies"
@@ -258,7 +280,7 @@ collections:
         collection: "Suggested Movies"
         unplayed: true
       collection_filtering: user
-      sort_by: random
+      sort_by: title.asc
 
   "Unwatched: Popular Movies":
     summary: "Popular movies across the internet"
