@@ -1,22 +1,22 @@
 ```
 - 1_suggested.yml
-  - Random Movies
+  - Random Movies (English)
   - Recently Added Movies (English)
   - Recently Released Movies (English)
-  - Recommended Movies (Trakt user's personal favourites)
-  - Suggested Movies (Trakt favourited daily/weekly/monthly/yearly/all charts)
-  - Trending Movies
-  - Popular Movies
-  - Top Rated Movies
+  - Recommended Movies (Trakt user's personal favourites and/or trakt/letterboxd lists)
+  - Suggested Movies (Trakt most favourited daily/weekly/monthly/yearly/all charts and/or trakt/letterboxd lists)
+  - Trending Movies (https://mdblist.com/lists/archivist/movie-trending)
+  - Popular Movies (https://mdblist.com/lists/archivist/movie-popular)
+  - Top Rated Movies (https://mdblist.com/lists/archivist/movie-top-rated)
   - Unwatched: Random Movies
   - Unwatched: Recommended Movies
   - Unwatched: Suggested Movies
   - Unwatched: Popular Movies
   - Unwatched: Top Rated Movies
-  - Most Watched Daily
-  - Most Watched Weekly
-  - Most Watched Monthly
-  - Most Watched Yearly
+  - Most Watched Daily (https://trakt.tv/movies/watched/daily)
+  - Most Watched Weekly (https://trakt.tv/movies/watched/weekly)
+  - Most Watched Monthly (https://trakt.tv/movies/watched/monthly)
+  - Most Watched Yearly (https://trakt.tv/movies/watched/yearly)
 
 - 1_seasonal.yml
   - Valentine's Day Movies (02/13-02/15)
@@ -28,7 +28,7 @@
   - New Year's Eve Movies (12/26-01-02)
 
 - 1_parental.yml
-  - Parental: All
+  - Parental: All (https://mdblist.com/lists/archivist/list-parental)
   - Parental: Random
   - Parental: Recently Added
   - Parental: Recently Released
@@ -42,7 +42,7 @@
   - Documentaries: Top Rated
 
 - 1_standup.yml
-  - Stand-up: All
+  - Stand-up: All (https://mdblist.com/lists/archivist/list-standup)
   - Stand-up: Random
   - Stand-up: Recently Added
   - Stand-up: Recently Released
