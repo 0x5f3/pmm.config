@@ -4,7 +4,19 @@ libraries:
   Movies:
     library_type: movie
     operations:
-      delete_unmanaged_collections: false
+      - schedule: daily
+        delete_unmanaged_collections: false
+#      - schedule: weekly(thursday)
+#        mass_audience_rating_update: mdb_average
+#        mass_critic_rating_update: mdb_metacritic
+#        mass_user_rating_update: imdb
+#        mass_content_rating_update: mdb
+#        mass_genre_update: imdb
+#      - schedule: weekly(thursday)
+#        mass_poster_update:
+#          source: tmdb
+#          seasons: false
+#          episodes: false
     collection_files:
 #   - file: config/metadata/movie/0_radarr.yml
     - file: config/metadata/movie/1_suggested.yml
