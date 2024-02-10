@@ -46,6 +46,9 @@ libraries:
 #        mass_genre_update: imdb
 #      - schedule: weekly(saturday)
 #        mass_poster_update:
+#          source: tmdb
+#          seasons: true
+#          episodes: false
 #    collection_files:
 #    - file: config/metadata/show/0_sonarr.yml
 #    - file: config/metadata/show/1_parental_sync.yml
