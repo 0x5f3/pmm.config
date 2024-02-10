@@ -150,14 +150,17 @@
   - Top Rated in Chick-Flick
   - Top Rated in Comics
   - Top Rated in Coming Of Age
+  - Top Rated in Conspiracy
   - Top Rated in Con-Artists
   - Top Rated in Cop
   - Top Rated in Costume Drama
   - Top Rated in Courtroom
   - Top Rated in Cyberpunk
   - Top Rated in Dark Fantasy
+  - Top Rated in Demonic
   - Top Rated in Detective
-  - Top Rated in Distaster
+  - Top Rated in Dinosaurs
+  - Top Rated in Disaster
   - Top Rated in Dragons
   - Top Rated in Dystopian
   - Top Rated in Epics
@@ -192,6 +195,7 @@
   - Top Rated in Pandemic
   - Top Rated in Paranormal
   - Top Rated in Period Drama
+  - Top Rated in Petrolhead
   - Top Rated in Philosophical
   - Top Rated in Political
   - Top Rated in Post-Apocalyptic
