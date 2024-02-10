@@ -32,12 +32,12 @@ git clone https://github.com/0x5f3/pmm.config config
 
 ###### The initial process for populating collections:
 ```
-docker run --rm -it -v ./config:/config meisnate12/plex-meta-manager:nightly --config config/config.yml --collection-only --run --ignore-schedules
+docker run --rm -it -v ./config:/config meisnate12/plex-meta-manager:nightly --config config/config.yml --collections-only --run --ignore-schedules
 ```
 
 ###### Following a successful initial run:
 ```
-docker run --rm -it -v ./config:/config meisnate12/plex-meta-manager:nightly --config config/config.yml --collection-only --run
+docker run --rm -it -v ./config:/config meisnate12/plex-meta-manager:nightly --config config/config.yml --collections-only --run
 ```
 ###### A successful run will result in something similar to this:
 ![movies](/assets/_/_movies.png)
