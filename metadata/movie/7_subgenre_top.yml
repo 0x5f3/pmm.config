@@ -290,6 +290,20 @@ collections:
                     letterboxd_list: "theme-coming-of-age"
                 }
 
+  "Top Rated in Conspiracy":
+    summary: "Top rated movies in Conspiracy"
+    file_poster: config/assets/7_subgenre_top/subgenre_top_conspiracy.png
+    schedule: weekly(tuesday)
+    template: {
+                    name: sub_genre,
+                    keyword: "conspiracy",
+                    type: "movie,tv_movie",
+                    rating.gte: 5,
+                    votes.gte: 1000,
+                    language: "en",
+                    letterboxd_list: "theme-conspiracy"
+                }
+
   "Top Rated in Con-Artists":
     summary: "Top rated movies in Con-Artists"
     file_poster: config/assets/7_subgenre_top/subgenre_top_con-artists.png
@@ -373,6 +387,20 @@ collections:
                     language: "en",
                     letterboxd_list: "theme-dark-fantasy"
                 }
+                
+  "Top Rated in Demonic":
+    summary: "Top rated movies in Demonic"
+    file_poster: config/assets/7_subgenre_top/subgenre_top_demonic.png
+    schedule: weekly(tuesday)
+    template: {
+                    name: sub_genre,
+                    keyword: "demon",
+                    type: "movie,tv_movie",
+                    rating.gte: 5,
+                    votes.gte: 1000,
+                    language: "en",
+                    letterboxd_list: "theme-demonic"
+                }
 
   "Top Rated in Detective":
     summary: "Top rated movies in Detective"
@@ -386,6 +414,20 @@ collections:
                     votes.gte: 1000,
                     language: "en",
                     letterboxd_list: "theme-detective"
+                }
+                
+  "Top Rated in Dinosaurs":
+    summary: "Top rated movies in Dinosaurs"
+    file_poster: config/assets/7_subgenre_top/subgenre_top_dinosaurs.png
+    schedule: weekly(tuesday)
+    template: {
+                    name: sub_genre,
+                    keyword: "dinosaur",
+                    type: "movie,tv_movie",
+                    rating.gte: 5,
+                    votes.gte: 1000,
+                    language: "en",
+                    letterboxd_list: "theme-dinosaurs"
                 }
 
   "Top Rated in Disaster":
@@ -889,6 +931,20 @@ collections:
                     votes.gte: 1000,
                     language: "en",
                     letterboxd_list: "theme-period-drama"
+                }
+                
+  "Top Rated in Petrolhead":
+    summary: "Top rated movies in Petrolhead"
+    file_poster: config/assets/7_subgenre_top/subgenre_top_petrolhead.png
+    schedule: weekly(monday)
+    template: {
+                    name: sub_genre,
+                    keyword.any: "car-racing,racing",
+                    type: "movie,tv_movie",
+                    rating.gte: 5,
+                    votes.gte: 100,
+                    language: "en",
+                    letterboxd_list: "theme-petrolhead"
                 }
 
   "Top Rated in Philosophical":

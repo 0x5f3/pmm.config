@@ -140,7 +140,7 @@
   - Top Rated in Anti-Hero
   - Top Rated in Apocalypse
   - Top Rated in Artifical Intelligence
-  - Top Rated in Assasins
+  - Top Rated in Assassins
   - Top Rated in Betrayal
   - Top Rated in Black Comedy
   - Top Rated in Boxing
@@ -228,7 +228,7 @@
   - Top Rated in Vampires
   - Top Rated in Video Game
   - Top Rated in Werewolves
-  - Top Rated in Whodunit
+  - Top Rated in Whodunit?
   - Top Rated in Wizardry & Witchcraft
   - Top Rated in World War
   - Top Rated in Zombies
