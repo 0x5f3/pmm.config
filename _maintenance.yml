@@ -1,4 +1,4 @@
-## config.yml
+## _maintenance.yml
 
 libraries:
   Movies:
@@ -18,28 +18,7 @@ libraries:
 #          seasons: false
 #          episodes: false
     collection_files:
-#    - file: config/collections/movie/0_maintenance.yml
-#    - file: config/collections/movie/0_radarr.yml
-    - file: config/collections/movie/1_suggested.yml
-    - file: config/collections/movie/1_seasonal.yml
-    - file: config/collections/movie/2_year_top.yml
-    - schedule: weekly(monday)
-    - file: config/collections/movie/3_decades_top.yml
-    - schedule: weekly(tuesday)
-#    - file: config/collections/movie/4_awards.yml
-#    - schedule: weekly(wednesday)
-    - file: config/collections/movie/5_genre_popular.yml
-    - file: config/collections/movie/6_genre_top.yml
-    - schedule: weekly(thursday)
-#    - file: config/collections/movie/7_subgenre_top.yml
-#    - file: config/collections/movie/8_studio.yml
-#    - schedule: weekly(wednesday)
-#    - file: config/collections/movie/9_collections.yml
-#    - schedule: weekly(sunday)
-#    - file: config/collections/movie/1_parental_sync.yml
-#    - file: config/collections/movie/1_parental.yml
-#    - file: config/collections/movie/1_documentary.yml
-#    - file: config/collections/movie/1_standup.yml
+    - file: config/collections/movie/0_maintenance.yml
   TV:
     library_type: show
     operations:
@@ -57,22 +36,7 @@ libraries:
 #          seasons: true
 #          episodes: false
     collection_files:
-#    - file: config/collections/show/0_maintenance.yml
-#    - file: config/collections/show/0_sonarr.yml
-    - file: config/collections/show/1_suggested.yml
-    - file: config/collections/show/2_year_top.yml
-    - schedule: weekly(monday)
-    - file: config/collections/show/3_decades_top.yml
-    - schedule: weekly(wednesday)
-#    - file: config/collections/show/4_awards.yml
-#    - schedule: weekly(thursday)
-    - file: config/collections/show/5_genre_popular.yml
-    - file: config/collections/show/6_genre_top.yml
-    - schedule: weekly(saturday)
-#    - file: config/collections/show/7_network.yml
-#    - file: config/collections/show/1_parental_sync.yml
-#    - file: config/collections/show/1_parental.yml
-#    - file: config/collections/show/1_documentary.yml
+    - file: config/collections/show/0_maintenance.yml
 #  KIDS:
 #    library_type: show
 #    operations:
@@ -88,9 +52,6 @@ libraries:
 #        mass_poster_update:
 #    collection_files:
 #    - file: config/collections/show/0_maintenance.yml
-#    - file: config/collections/show/0_sonarr.yml
-#    - file: config/collections/show/1_parental_sync.yml
-#    - file: config/collections/show/1_parental.yml
 settings:
   assets_for_all: false
   asset_depth: 0
@@ -134,7 +95,7 @@ settings:
   show_options: false
   show_unconfigured: true
   show_unmanaged: false
-  sync_mode: sync
+  sync_mode: append
   tvdb_language: default
   verify_ssl: false
 plex:

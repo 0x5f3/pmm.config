@@ -1,0 +1,262 @@
+## 6_genre_top.yml
+
+templates:
+  top:
+    collection_mode: hide
+    collection_order: custom
+    delete_not_scheduled: false
+    limit: 500
+    sort_title: "+120_<<collection_name>>"
+    sync_mode: sync
+    visible_home: false
+    visible_library: false
+    visible_shared: false
+    imdb_search:
+      genre: <<genre>>
+      language: <<language>>
+      limit: 1000
+      rating.gte: <<rating.gte>>
+      sort_by: rating.desc
+      type: <<type>>
+      votes.gte: <<votes.gte>>
+
+collections:
+  "Top Rated in Action":
+    file_poster: config/assets/6_genre_top/genre_top-rated_action.png
+    summary: "Top rated movies in Action"
+    template: {
+                    genre: "action",
+                    language: "en",
+                    name: top,
+                    rating.gte: 5,
+                    type: "movie,tv_movie",
+                    votes.gte: 10000
+                }
+
+  "Top Rated in Adventure":
+    file_poster: config/assets/6_genre_top/genre_top-rated_adventure.png
+    summary: "Top rated movies in Adventure"
+    template: {
+                    genre: "adventure",
+                    language: "en",
+                    name: top,
+                    rating.gte: 5,
+                    type: "movie,tv_movie",
+                    votes.gte: 10000
+                }
+
+  "Top Rated in Animation":
+    file_poster: config/assets/6_genre_top/genre_top-rated_animation.png
+    summary: "Top rated movies in Animation"
+    template: {
+                    genre: "animation",
+                    language: "en",
+                    name: top,
+                    rating.gte: 5,
+                    type: "movie,tv_movie",
+                    votes.gte: 10000
+                }
+
+  "Top Rated in Biography":
+    file_poster: config/assets/6_genre_top/genre_top-rated_biography.png
+    summary: "Top rated movies in Biography"
+    template: {
+                    genre: "biography",
+                    language: "en",
+                    name: top,
+                    rating.gte: 5,
+                    type: "movie,tv_movie",
+                    votes.gte: 10000
+                }
+
+  "Top Rated in Comedy":
+    file_poster: config/assets/6_genre_top/genre_top-rated_comedy.png
+    summary: "Top rated movies in Comedy"
+    template: {
+                    genre: "comedy",
+                    language: "en",
+                    name: top,
+                    rating.gte: 5,
+                    type: "movie,tv_movie",
+                    votes.gte: 10000
+                }
+
+  "Top Rated in Crime":
+    file_poster: config/assets/6_genre_top/genre_top-rated_crime.png
+    summary: "Top rated movies in Crime"
+    template: {
+                    genre: "crime",
+                    language: "en"
+                    name: top,
+                    rating.gte: 5,
+                    type: "movie,tv_movie",
+                    votes.gte: 10000
+                }
+
+  "Top Rated in Drama":
+    file_poster: config/assets/6_genre_top/genre_top-rated_drama.png
+    summary: "Top rated movies in Drama"
+    template: {
+                    genre: "drama",
+                    language: "en"
+                    name: top,
+                    rating.gte: 5,
+                    type: "movie,tv_movie",
+                    votes.gte: 10000
+                }
+
+  "Top Rated in Family":
+    file_poster: config/assets/6_genre_top/genre_top-rated_family.png
+    summary: "Top rated movies in Family"
+    template: {
+                    genre: "family",
+                    language: "en",
+                    name: top,
+                    rating.gte: 5,
+                    type: "movie,tv_movie",
+                    votes.gte: 10000
+                }
+
+  "Top Rated in Fantasy":
+    summary: "Top rated movies in Fantasy"
+    file_poster: config/assets/6_genre_top/genre_top-rated_fantasy.png
+    template: {
+                    genre: "fantasy",
+                    language: "en",
+                    name: top,
+                    rating.gte: 5,
+                    type: "movie,tv_movie",
+                    votes.gte: 10000
+                }
+
+  "Top Rated in History":
+    file_poster: config/assets/6_genre_top/genre_top-rated_history.png
+    summary: "Top rated movies in History"
+    template: {
+                    genre: "history",
+                    language: "en",
+                    name: top,
+                    rating.gte: 5,
+                    type: "movie,tv_movie",
+                    votes.gte: 10000
+                }
+
+  "Top Rated in Horror":
+    summary: "Top rated movies in Horror"
+    file_poster: config/assets/6_genre_top/genre_top-rated_horror.png
+    template: {
+                    genre: "horror",
+                    language: "en",
+                    name: top,
+                    rating.gte: 5,
+                    type: "movie,tv_movie",
+                    votes.gte: 10000
+                }
+
+  "Top Rated in Music":
+    file_poster: config/assets/6_genre_top/genre_top-rated_music.png
+    summary: "Top rated movies in Music"
+    template: {
+                    genre: "music",
+                    language: "en",
+                    name: top,
+                    rating.gte: 5,
+                    type: "movie,tv_movie",
+                    votes.gte: 10000
+                }
+
+  "Top Rated in Musicals":
+    file_poster: config/assets/6_genre_top/genre_top-rated_musicals.png
+    summary: "Top rated movies in Musicals"
+    template: {
+                    genre: "musical",
+                    language: "en",
+                    name: top,
+                    rating.gte: 5,
+                    type: "movie,tv_movie",
+                    votes.gte: 10000
+                }
+
+  "Top Rated in Mystery":
+    file_poster: config/assets/6_genre_top/genre_top-rated_mystery.png
+    summary: "Top rated movies in Mystery"
+    template: {
+                    genre: "mystery",
+                    language: "en",
+                    name: top,
+                    rating.gte: 5,
+                    type: "movie,tv_movie",
+                    votes.gte: 10000
+                }
+
+  "Top Rated in Romance":
+    file_poster: config/assets/6_genre_top/genre_top-rated_romance.png
+    summary: "Top rated movies in Romance"
+    template: {
+                    genre: "romance",
+                    language: "en"
+                    name: top,
+                    rating.gte: 5,
+                    type: "movie,tv_movie",
+                    votes.gte: 10000,
+                }
+
+  "Top Rated in Sci-Fi":
+    file_poster: config/assets/6_genre_top/genre_top-rated_sci-fi.png
+    summary: "Top rated movies in Sci-Fi"
+    template: {
+                    genre: "sci-fi",
+                    language: "en",
+                    name: top,
+                    rating.gte: 5,
+                    type: "movie,tv_movie",
+                    votes.gte: 10000
+                }
+
+  "Top Rated in Sport":
+    file_poster: config/assets/6_genre_top/genre_top-rated_sport.png
+    summary: "Top rated movies in Sport"
+    template: {
+                    genre: "sport",
+                    language: "en",
+                    name: top,
+                    rating.gte: 5,
+                    type: "movie,tv_movie",
+                    votes.gte: 10000
+                }
+
+  "Top Rated in Thriller":
+    file_poster: config/assets/6_genre_top/genre_top-rated_thriller.png
+    summary: "Top rated movies in Thriller"
+    template: {
+                    genre: "thriller",
+                    language: "en",
+                    name: top,
+                    rating.gte: 5,
+                    type: "movie,tv_movie",
+                    votes.gte: 10000
+                }
+
+  "Top Rated in War":
+    file_poster: config/assets/6_genre_top/genre_top-rated_war.png
+    summary: "Top rated movies in War"
+    template: {
+                    genre: "war",
+                    language: "en",
+                    name: top,
+                    rating.gte: 5,
+                    type: "movie,tv_movie",
+                    votes.gte: 10000
+                }
+
+  "Top Rated in Western":
+    file_poster: config/assets/6_genre_top/genre_top-rated_western.png
+    summary: "Top rated movies in Western"
+    template: {
+                    genre: "western",
+                    language: "en",
+                    name: top,
+                    rating.gte: 5,
+                    type: "movie,tv_movie",
+                    votes.gte: 10000
+                }

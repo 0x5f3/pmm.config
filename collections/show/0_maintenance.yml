@@ -1,0 +1,18 @@
+## 0_maintenance.yml
+
+collections:
+  refresh_added:
+    build_collection: false
+    item_refresh: true
+    schedule: daily
+    plex_search:
+      all:
+        added: 1
+
+  refresh_released:
+    build_collection: false
+    item_refresh: true
+    schedule: weekly(sunday)
+    plex_search:
+      all:
+        released: 14
