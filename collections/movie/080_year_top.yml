@@ -64,7 +64,7 @@ collections:
     file_poster: config/assets/_year_top/year_top-rated_2021.png
     summary: "Top rated movies in 2021"
     template: {
-                    language: "en"
+                    language: "en",
                     name: year_top,
                     num: "O",
                     release.after: 2021-01-01,
