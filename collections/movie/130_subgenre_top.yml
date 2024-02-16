@@ -787,7 +787,7 @@ collections:
                     genre: "horror",
                     keyword: "creature,monster,creature-feature",
                     language: "en",
-                    letterboxd_list: "theme-monsters"
+                    letterboxd_list: "theme-monsters",
                     name: sub_genre,
                     rating.gte: 5,
                     type: "movie,tv_movie",
