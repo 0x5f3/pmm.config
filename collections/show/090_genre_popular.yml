@@ -95,16 +95,16 @@ collections:
                     type: "tv_series,tv_mini_series,tv_special"
                 }
 
-#  "Popular in Documentary":
-#    file_poster: config/assets/_genre_popular/genre_popular_documentary.png
-#    summary: "Popular TV shows in Documentary"
-#    template: {
-#                    genre: "documentary",
-#                    language: "en",
-#                    name: genre_popular,
-#                    popularity.gte: 5,
-#                    type: "tv_series,tv_mini_series,tv_special"
-#                }
+  "Popular in Documentary":
+    file_poster: config/assets/_genre_popular/genre_popular_documentary.png
+    summary: "Popular TV shows in Documentary"
+    template: {
+                    genre: "documentary",
+                    language: "en",
+                    name: genre_popular,
+                    popularity.gte: 5,
+                    type: "tv_series,tv_mini_series,tv_special"
+                }
 
   "Popular in Drama":
     file_poster: config/assets/_genre_popular/genre_popular_drama.png

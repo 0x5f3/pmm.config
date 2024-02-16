@@ -95,16 +95,16 @@ collections:
                     type: "movie,tv_movie"
                 }
                 
-#   "Popular in Documentary":
-#    summary: "Popular movies in Documentary"
-#    file_poster: config/assets/_genre_popular/genre_popular_documentary.png
-#    template: {
-#                    genre: "documentary",
-#                    language: "en",
-#                    name: popular,
-#                    popularity.gte: 5,
-#                    type: "movie,tv_movie"
-#                }
+   "Popular in Documentary":
+    summary: "Popular movies in Documentary"
+    file_poster: config/assets/_genre_popular/genre_popular_documentary.png
+    template: {
+                    genre: "documentary",
+                    language: "en",
+                    name: popular,
+                    popularity.gte: 5,
+                    type: "movie,tv_movie"
+                }
 
   "Popular in Drama":
     file_poster: config/assets/_genre_popular/genre_popular_drama.png

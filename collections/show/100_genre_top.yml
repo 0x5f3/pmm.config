@@ -102,17 +102,17 @@ collections:
                     votes.gte: 10000
                 }
                 
-#  "Top Rated in Documentary":
-#    file_poster: config/assets/_genre_top/genre_top-rated_documentary.png
-#    summary: "Top rated TV shows in Documentary"
-#    template: {
-#                    genre: "documentary",
-#                    language: "en",
-#                    name: genre_top,
-#                    rating.gte: 5,
-#                    type: "tv_series,tv_mini_series,tv_special",
-#                    votes.gte: 10000
-#                }
+  "Top Rated in Documentary":
+    file_poster: config/assets/_genre_top/genre_top-rated_documentary.png
+    summary: "Top rated TV shows in Documentary"
+    template: {
+                    genre: "documentary",
+                    language: "en",
+                    name: genre_top,
+                    rating.gte: 5,
+                    type: "tv_series,tv_mini_series,tv_special",
+                    votes.gte: 10000
+                }
 
   "Top Rated in Drama":
     file_poster: config/assets/_genre_top/genre_top-rated_drama.png
