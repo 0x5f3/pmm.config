@@ -97,6 +97,7 @@
   - Popular in Animation
   - Popular in Biography
   - Popular in Comedy
+  - Popular in Documentary
   - Popular in Drama
   - Popular in Family
   - Popular in Fantasy
@@ -118,6 +119,7 @@
   - Top Rated in Animation
   - Top Rated in Biography
   - Top Rated in Comedy
+  - Top Rated in Documentary
   - Top Rated in Drama
   - Top Rated in Family
   - Top Rated in Fantasy
