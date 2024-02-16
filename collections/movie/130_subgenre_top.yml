@@ -580,7 +580,7 @@ collections:
                     genre: "horror",
                     keyword: "ghost",
                     language: "en",
-                    letterboxd_list: "theme-ghosts"
+                    letterboxd_list: "theme-ghosts",
                     name: sub_genre,
                     rating.gte: 5,
                     type: "movie,tv_movie",

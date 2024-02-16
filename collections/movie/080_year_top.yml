@@ -51,7 +51,7 @@ collections:
     file_poster: config/assets/_year_top/year_top-rated_2022.png
     summary: "Top rated movies in 2022"
     template: {
-                    language: "en"
+                    language: "en",
                     name: year_top,
                     num: "N",
                     release.after: 2022-01-01,

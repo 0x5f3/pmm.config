@@ -224,7 +224,7 @@ collections:
     template: {
                     genre: "romance",
                     genre.not: "documentary",
-                    language: "en"
+                    language: "en",
                     name: top,
                     rating.gte: 5,
                     type: "movie,tv_movie",
