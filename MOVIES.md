@@ -1,5 +1,5 @@
 ```
-- 1_suggested.yml
+- _suggested.yml
   - Random Movies (English)
   - Recently Added Movies (English)
   - Recently Released Movies (English)
@@ -18,7 +18,7 @@
   - Most Watched Monthly (https://trakt.tv/movies/watched/monthly)
   - Most Watched Yearly (https://trakt.tv/movies/watched/yearly)
 
-- 1_seasonal.yml
+- _seasonal.yml
   - Valentine's Day Movies (02/13-02/15)
   - St. Patrick's Day Movies (03/16-03-18)
   - Easter Moviews (03/22-04/25)
@@ -27,28 +27,28 @@
   - Christmas Movies (12/01-12/31)
   - New Year's Eve Movies (12/26-01-02)
 
-- 1_parental.yml
+- _parental.yml
   - Parental: All (https://mdblist.com/lists/archivist/list-parental)
   - Parental: Random
   - Parental: Recently Added
   - Parental: Recently Released
   - Parental: Top Rated
 
-- 1_documentary.yml
+- _documentary.yml
   - Documentaries: All
   - Documentaries: Random
   - Documentaries: Recently Added
   - Documentaries: Recently Released
   - Documentaries: Top Rated
 
-- 1_standup.yml
+- _standup.yml
   - Stand-up: All (https://mdblist.com/lists/archivist/list-standup)
   - Stand-up: Random
   - Stand-up: Recently Added
   - Stand-up: Recently Released
   - Stand-up: Top Rated
 
-- 2_year_top.yml
+- _year_top.yml
   - Top Rated of 2024
   - Top Rated of 2023
   - Top Rated of 2022
@@ -65,7 +65,7 @@
   - Top Rated of 2011
   - Top Rated of 2010
 
-- 3_decades_top.yml
+- _decades_top.yml
   - Top Rated of the 2020s
   - Top Rated of the 2010s
   - Top Rated of the 2000s
@@ -76,7 +76,7 @@
   - Top Rated of the 1950s
   - Top Rated of the 1940s
 
-- 4_awards.yml
+- _awards.yml
   - Oscar Winners
   - Oscar Nominees
   - Golden Globes Winners
@@ -91,7 +91,7 @@
   - Spirit Awards Winners
   - Razzie Winners
 
-- 5_genre_popular.yml
+- _genre_popular.yml
   - Popular in Action
   - Popular in Adventure
   - Popular in Animation
@@ -112,7 +112,7 @@
   - Popular in War
   - Popular in Western
 
-- 6_genre_top.yml
+- _genre_top.yml
   - Top Rated in Action
   - Top Rated in Adventure
   - Top Rated in Animation
@@ -237,7 +237,7 @@
   - Top Rated in World War
   - Top Rated in Zombies
 
-- 8_studio.yml
+- _studio.yml
   - Columbia
   - Criterion
   - DC Entertainment
@@ -258,6 +258,6 @@
   - Walt Disney
   - Warner Bros
 
-- 9_collections.yml
+- _collections.yml
   - TMDb Collections
 ```

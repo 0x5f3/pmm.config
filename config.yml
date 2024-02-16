@@ -18,28 +18,28 @@ libraries:
 #          seasons: false
 #          episodes: false
     collection_files:
-#    - file: config/collections/movie/0_maintenance.yml
-#    - file: config/collections/movie/0_radarr.yml
-    - file: config/collections/movie/1_suggested.yml
-    - file: config/collections/movie/1_seasonal.yml
-    - file: config/collections/movie/2_year_top.yml
+#    - file: config/collections/movie/_maintenance.yml
+#    - file: config/collections/movie/_radarr.yml
+    - file: config/collections/movie/010_suggested.yml
+    - file: config/collections/movie/040_seasonal.yml
+    - file: config/collections/movie/080_year_top.yml
     - schedule: weekly(monday)
-    - file: config/collections/movie/3_decades_top.yml
+    - file: config/collections/movie/090_decades_top.yml
     - schedule: weekly(tuesday)
-#    - file: config/collections/movie/4_awards.yml
+#    - file: config/collections/movie/100_awards.yml
 #    - schedule: weekly(wednesday)
-    - file: config/collections/movie/5_genre_popular.yml
-    - file: config/collections/movie/6_genre_top.yml
+    - file: config/collections/movie/110_genre_popular.yml
+    - file: config/collections/movie/120_genre_top.yml
     - schedule: weekly(thursday)
-#    - file: config/collections/movie/7_subgenre_top.yml
-#    - file: config/collections/movie/8_studio.yml
+#    - file: config/collections/movie/130_subgenre_top.yml
+#    - file: config/collections/movie/140_studio.yml
 #    - schedule: weekly(wednesday)
-#    - file: config/collections/movie/9_collections.yml
+#    - file: config/collections/movie/200_collections.yml
 #    - schedule: weekly(sunday)
-#    - file: config/collections/movie/1_parental_sync.yml
-#    - file: config/collections/movie/1_parental.yml
-#    - file: config/collections/movie/1_documentary.yml
-#    - file: config/collections/movie/1_standup.yml
+#    - file: config/collections/movie/050_parental_sync.yml
+#    - file: config/collections/movie/050_parental.yml
+#    - file: config/collections/movie/060_documentary.yml
+#    - file: config/collections/movie/070_standup.yml
   TV:
     library_type: show
     operations:
@@ -57,22 +57,22 @@ libraries:
 #          seasons: true
 #          episodes: false
     collection_files:
-#    - file: config/collections/show/0_maintenance.yml
-#    - file: config/collections/show/0_sonarr.yml
-    - file: config/collections/show/1_suggested.yml
-    - file: config/collections/show/2_year_top.yml
+#    - file: config/collections/show/_maintenance.yml
+#    - file: config/collections/show/_sonarr.yml
+    - file: config/collections/show/010_suggested.yml
+    - file: config/collections/show/060_year_top.yml
     - schedule: weekly(monday)
-    - file: config/collections/show/3_decades_top.yml
+    - file: config/collections/show/070_decades_top.yml
     - schedule: weekly(wednesday)
-#    - file: config/collections/show/4_awards.yml
+#    - file: config/collections/show/080_awards.yml
 #    - schedule: weekly(thursday)
-    - file: config/collections/show/5_genre_popular.yml
-    - file: config/collections/show/6_genre_top.yml
+    - file: config/collections/show/090_genre_popular.yml
+    - file: config/collections/show/100_genre_top.yml
     - schedule: weekly(saturday)
-#    - file: config/collections/show/7_network.yml
-#    - file: config/collections/show/1_parental_sync.yml
-#    - file: config/collections/show/1_parental.yml
-#    - file: config/collections/show/1_documentary.yml
+#    - file: config/collections/show/110network.yml
+#    - file: config/collections/show/040_parental_sync.yml
+#    - file: config/collections/show/040_parental.yml
+#    - file: config/collections/show/050_documentary.yml
 #  KIDS:
 #    library_type: show
 #    operations:
@@ -87,10 +87,10 @@ libraries:
 #      - schedule: weekly(saturday)
 #        mass_poster_update:
 #    collection_files:
-#    - file: config/collections/show/0_maintenance.yml
-#    - file: config/collections/show/0_sonarr.yml
-#    - file: config/collections/show/1_parental_sync.yml
-#    - file: config/collections/show/1_parental.yml
+#    - file: config/collections/show/_maintenance.yml
+#    - file: config/collections/show/_sonarr.yml
+#    - file: config/collections/show/040_parental_sync.yml
+#    - file: config/collections/show/040_parental.yml
 settings:
   assets_for_all: false
   asset_depth: 0

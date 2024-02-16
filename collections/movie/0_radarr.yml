@@ -1,9 +1,0 @@
-## 0_radarr.yml
-
-collections:
-  "":
-    build_collection: false
-    mdblist_list:
-    radarr_add_missing: true
-    radarr_folder:
-    schedule: daily
