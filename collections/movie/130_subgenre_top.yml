@@ -1280,7 +1280,7 @@ collections:
     template: {
                     keyword: "stop-motion",
                     language: "en",
-                    letterboxd_extra_1: "https://letterboxd.com/savage_/list/stop-motion/"
+                    letterboxd_extra_1: "https://letterboxd.com/savage_/list/stop-motion/",
                     letterboxd_list: "theme-stop-motion",
                     name: sub_genre,
                     rating.gte: 5,
