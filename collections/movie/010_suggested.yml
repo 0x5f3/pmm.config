@@ -174,7 +174,7 @@ collections:
     summary: "Based on watched and favourited movies"
     template: {
                     name: trakt,
-                    num: "4"
+                    num: "4",
                     pos: "010"
 #                    pos: "010",
 #                    trakt_list_extra_01: "https://trakt.tv/users/########/lists/movie-recommendations-couchmoney-tv",
