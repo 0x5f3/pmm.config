@@ -95,7 +95,7 @@ collections:
     template: {
                     genre: "crime",
                     genre.not: "documentary",
-                    language: "en"
+                    language: "en",
                     name: top,
                     rating.gte: 5,
                     type: "movie,tv_movie",
@@ -120,7 +120,7 @@ collections:
     template: {
                     genre: "drama",
                     genre.not: "documentary",
-                    language: "en"
+                    language: "en",
                     name: top,
                     rating.gte: 5,
                     type: "movie,tv_movie",

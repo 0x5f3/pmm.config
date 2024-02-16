@@ -37,7 +37,7 @@ collections:
                     mdblist_list: "list-standup",
                     mdblist_user: "archivist",
                     name: mdblist,
-                    num: "0
+                    num: "0"
                 }
 
   "Stand-up: Random":

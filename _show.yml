@@ -19,7 +19,7 @@ libraries:
     - file: config/collections/show/090_genre_popular.yml
     - file: config/collections/show/100_genre_top.yml
     - schedule: weekly(saturday)
-#    - file: config/collections/show/110network.yml
+#    - file: config/collections/show/110_network.yml
 #    - file: config/collections/show/040_parental_sync.yml
 #    - file: config/collections/show/040_parental.yml
 #    - file: config/collections/show/050_documentary.yml

@@ -537,7 +537,7 @@ collections:
                     genre: "horror",
                     keyword: "found-footage",
                     language: "en",
-                    letterboxd_list: "theme-found-footage"
+                    letterboxd_list: "theme-found-footage",
                     name: sub_genre,
                     rating.gte: 2,
                     type: "movie,tv_movie",

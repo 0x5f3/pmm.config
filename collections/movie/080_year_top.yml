@@ -57,7 +57,7 @@ collections:
                     release.after: 2022-01-01,
                     release.before: 2022-12-31,
                     type: "movie,tv_movie",
-                    votes.gte: 1000,
+                    votes.gte: 1000
                 }
 
   "Top Rated of 2021":
@@ -70,7 +70,7 @@ collections:
                     release.after: 2021-01-01,
                     release.before: 2021-12-31,
                     type: "movie,tv_movie",
-                    votes.gte: 1000,
+                    votes.gte: 1000
                 }
 
   "Top Rated of 2020":

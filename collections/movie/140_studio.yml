@@ -204,7 +204,7 @@ collections:
     summary: "A collection from Warner Bros"
     template: {
                     company: "co0002663",
-                    language: "en",,
+                    language: "en",
                     name: company,
                     type: "movie,tv_movie"
                 }
