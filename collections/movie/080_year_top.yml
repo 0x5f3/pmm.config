@@ -22,7 +22,7 @@ templates:
 
 collections:
   "Top Rated of 2024":
-    file_poster: config/assets/2_year_top/year_top-rated_2024.png
+    file_poster: config/assets/_year_top/year_top-rated_2024.png
     summary: "Top rated movies in 2024"
     template: {
                     language: "en",

@@ -13,7 +13,7 @@ templates:
 
 collections:
   "Parental: Random":
-    file_poster: config/assets/1_parental/parental_random.png
+    file_poster: config/assets/_parental/parental_random.png
     summary: "Random TV shows suitable for children"
     template: {
                     name: plex,

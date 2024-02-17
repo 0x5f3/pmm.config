@@ -84,6 +84,7 @@ templates:
     collection_mode: hide
     collection_order: custom
     delete_not_scheduled: false
+    sort_title: "+<<pos>>_<<num>>_<<collection_name>>"
     sync_mode: sync
     visible_home: false
     visible_library: false

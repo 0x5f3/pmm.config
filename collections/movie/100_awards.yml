@@ -20,7 +20,7 @@ templates:
     collection_mode: hide
     collection_order: release.desc
     delete_not_scheduled: false
-    sort_title: "+4_<<num>>_<<collection_name>>"
+    sort_title: "+100_<<num>>_<<collection_name>>"
     sync_mode: sync
     visible_home: false
     visible_library: false
