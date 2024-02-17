@@ -107,7 +107,7 @@ collections:
     summary: "Top rated movies in Documentary"
     template: {
                     genre: "documentary",
-                    language: "en"
+                    language: "en",
                     name: top,
                     rating.gte: 5,
                     type: "movie,tv_movie",
