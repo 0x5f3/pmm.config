@@ -4,7 +4,7 @@ templates:
   plex:
     collection_mode: hide
     delete_not_scheduled: false
-    sort_title: "+<<pos>>_<<num>>_<<collection_name>>"
+    sort_title: "+010_<<num>>_<<collection_name>>"
     sync_mode: sync
     visible_home: false
     visible_library: false
@@ -13,7 +13,7 @@ templates:
   trakt:
     collection_mode: hide
     delete_not_scheduled: false
-    sort_title: "+<<pos>>_<<num>>_<<collection_name>>"
+    sort_title: "+010_<<num>>_<<collection_name>>"
     sync_mode: sync
     visible_home: false
     visible_library: false
@@ -65,7 +65,7 @@ templates:
     collection_mode: hide
     collection_order: custom
     delete_not_scheduled: false
-    sort_title: "+<<pos>>_<<num>>_<<collection_name>>"
+    sort_title: "+010_<<num>>_<<collection_name>>"
     sync_mode: sync
     visible_home: false
     visible_library: false
@@ -84,7 +84,7 @@ templates:
     collection_mode: hide
     collection_order: custom
     delete_not_scheduled: false
-    sort_title: "+<<pos>>_<<num>>_<<collection_name>>"
+    sort_title: "+010_<<num>>_<<collection_name>>"
     sync_mode: sync
     visible_home: false
     visible_library: false
@@ -110,8 +110,7 @@ collections:
     visible_library: true
     template: {
                     name: plex,
-                    num: "0",
-                    pos: "010"
+                    num: "0"
                 }
     smart_filter:
       any:
@@ -128,8 +127,7 @@ collections:
     visible_shared: true
     template: {
                     name: plex,
-                    num: "1",
-                    pos: "010"
+                    num: "1"
                 }
     smart_filter:
       any:
@@ -144,8 +142,7 @@ collections:
     visible_library: true
     template: {
                     name: plex,
-                    num: "2",
-                    pos: "010"
+                    num: "2"
                 }
     smart_filter:
       any:
@@ -161,8 +158,7 @@ collections:
     template: {
                     name: letterboxd,
 #                    letterboxd_list_extra_01: "https://letterboxd.com/########/list/movie-recommendations",
-                    num: "3",
-                    pos: "010"
+                    num: "3"
                 }
     trakt_userlist:
       - userlist: favorites
@@ -175,9 +171,8 @@ collections:
     summary: "Based on watched and favourited movies"
     template: {
                     name: trakt,
-                    num: "4",
-                    pos: "010"
-#                    pos: "010",
+                    num: "4"
+#                    num: "4",
 #                    trakt_list_extra_01: "https://trakt.tv/users/########/lists/movie-recommendations-couchmoney-tv",
 #                    trakt_list_extra_02: "https://trakt.tv/users/########/lists/movies-based-on-recently-watched-couchmoney-tv"
                 }
@@ -233,8 +228,7 @@ collections:
                     mdblist_sort: "imdbpopular.desc",
                     mdblist_user: "archivist",
                     name: mdblist,
-                    num: "6",
-                    pos: "010"
+                    num: "6"
                 }
     limit: 250
 
@@ -248,151 +242,6 @@ collections:
                     mdblist_sort: "imdbrating.desc",
                     mdblist_user: "archivist",
                     name: mdblist,
-                    num: "7",
-                    pos: "010"
+                    num: "7"
                 }
     limit: 500
-
-  "Unwatched: Random Movies":
-    file_poster: config/assets/_suggested/suggested_unwatched_random.png
-    summary: "Random selection of movies"
-    template: {
-                    name: plex,
-                    num: "0",
-                    pos: "020"
-                }
-    smart_filter:
-      all:
-        unplayed: true
-        any:
-          audio_language: English, english
-      limit: 250
-      sort_by: random
-
-  "Unwatched: Recommended Movies":
-    file_poster: config/assets/_suggested/suggested_unwatched_recommended.png
-    summary: "Based on personally favourited movies"
-    template: {
-                    name: plex,
-                    num: "1",
-                    pos: "020"
-                }
-    smart_filter:
-      all:
-        collection: "Recommended Movies"
-        unplayed: true
-      collection_filtering: user
-      sort_by: title.asc
-
-  "Unwatched: Suggested Movies":
-    file_poster: config/assets/_suggested/suggested_unwatched_suggested.png
-    summary: "Based on watched and favourited movies"
-    template: {
-                    name: plex,
-                    num: "2",
-                    pos: "020"
-                }
-    smart_filter:
-      all:
-        collection: "Suggested Movies"
-        unplayed: true
-      collection_filtering: user
-      sort_by: title.asc
-
-  "Unwatched: Popular Movies":
-    file_poster: config/assets/_suggested/suggested_unwatched_popular.png
-    summary: "Popular movies across the internet"
-    template: {
-                    name: plex,
-                    num: "3",
-                    pos: "020"
-                }
-    smart_filter:
-      all:
-        collection: "Popular Movies"
-        unplayed: true
-      collection_filtering: user
-      sort_by: random
-
-  "Unwatched: Top Rated Movies":
-    file_poster: config/assets/_suggested/suggested_unwatched_top-rated.png
-    summary: "Top rated movies across the internet"
-    template: {
-                    name: plex,
-                    num: "4",
-                    pos: "020"
-                }
-    smart_filter:
-      all:
-        collection: "Top Rated Movies"
-        unplayed: true
-      collection_filtering: user
-      sort_by: random
-
-  "Most Watched Daily":
-    collection_order: custom
-    file_poster: config/assets/_suggested/suggested_most-watched-daily.png
-    schedule: daily
-    summary: "Movies trending across the internet"
-    template: {
-                    name: trakt,
-                    num: "0",
-                    pos: "030"
-                }
-    trakt_chart:
-      chart: watched
-      countries: us, gb, ie, ca, au, nz
-      languages: en
-      limit: 50
-      time_period: daily
-
-  "Most Watched Weekly":
-    collection_order: custom
-    file_poster: config/assets/_suggested/suggested_most-watched-weekly.png
-    schedule: daily
-    summary: "Movies trending across the internet"
-    template: {
-                    name: trakt,
-                    num: "1",
-                    pos: "030"
-                }
-    trakt_chart:
-      chart: watched
-      countries: us, gb, ie, ca, au, nz
-      languages: en
-      limit: 50
-      time_period: weekly
-
-  "Most Watched Monthly":
-    collection_order: custom
-    file_poster: config/assets/_suggested/suggested_most-watched-monthly.png
-    schedule: weekly(sunday)
-    summary: "Movies trending across the internet"
-    template: {
-                    name: trakt,
-                    num: "2",
-                    pos: "030"
-                }
-    trakt_chart:
-      chart: watched
-      countries: us, gb, ie, ca, au, nz
-      languages: en
-      limit: 75
-      time_period: monthly
-
-  "Most Watched Yearly":
-    collection_order: custom
-    file_poster: config/assets/_suggested/suggested_most-watched-yearly.png
-    schedule: weekly(sunday)
-    summary: "Movies trending across the internet"
-    template: {
-                    name: trakt,
-                    num: "3",
-                    pos: "030"
-                }
-    trakt_chart:
-      chart: watched
-      countries: us, gb, ie, ca, au, nz
-      languages: en
-      limit: 100
-      time_period: yearly

@@ -10,6 +10,8 @@ libraries:
 #    - file: config/collections/show/_maintenance.yml
 #    - file: config/collections/show/_sonarr.yml
     - file: config/collections/show/010_suggested.yml
+#    - file: config/collections/show/020_unwatched.yml
+    - file: config/collections/show/030_watched.yml
     - file: config/collections/show/060_year_top.yml
     - schedule: weekly(monday)
     - file: config/collections/show/070_decades_top.yml

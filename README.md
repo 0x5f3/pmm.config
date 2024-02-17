@@ -1,6 +1,8 @@
 #### This config will populate the following:
 ```
-- !Suggested (random, recently added|released, recommended, suggested, trending, popular, top-rated, unwatched, most watched)
+- !Suggested (random, recently added|released, recommended, suggested, trending, popular, top-rated)
+- Unwatched (random, recommended, suggested, popular, top-rated)
+- !Watched (most watched daily|weekly|monthly|yearly)
 - !Seasonal *
 - Parental
 - Documentaries

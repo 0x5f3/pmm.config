@@ -8,11 +8,15 @@
   - Trending Movies (https://mdblist.com/lists/archivist/movie-trending)
   - Popular Movies (https://mdblist.com/lists/archivist/movie-popular)
   - Top Rated Movies (https://mdblist.com/lists/archivist/movie-top-rated)
+
+- _unwatched.yml
   - Unwatched: Random Movies
   - Unwatched: Recommended Movies
   - Unwatched: Suggested Movies
   - Unwatched: Popular Movies
   - Unwatched: Top Rated Movies
+
+- _watched.yml
   - Most Watched Daily (https://trakt.tv/movies/watched/daily)
   - Most Watched Weekly (https://trakt.tv/movies/watched/weekly)
   - Most Watched Monthly (https://trakt.tv/movies/watched/monthly)

@@ -10,6 +10,8 @@ libraries:
 #    - file: config/collections/movie/_maintenance.yml
 #    - file: config/collections/movie/_radarr.yml
     - file: config/collections/movie/010_suggested.yml
+#    - file: config/collections/movie/020_unwatched.yml
+    - file: config/collections/movie/030_watched.yml
     - file: config/collections/movie/040_seasonal.yml
     - file: config/collections/movie/080_year_top.yml
     - schedule: weekly(monday)

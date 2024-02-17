@@ -8,11 +8,15 @@
   - Trending TV shows (https://mdblist.com/lists/archivist/tv-trending)
   - Popular TV shows (https://mdblist.com/lists/archivist/tv-popular)
   - Top Rated TV shows (https://mdblist.com/lists/archivist/tv-top-rated)
+
+- _unwatched.yml
   - Unwatched: Random TV shows
   - Unwatched: Recommended TV shows
   - Unwatched: Suggested TV shows
   - Unwatched: Popular TV shows
   - Unwatched: Top Rated TV shows
+
+- _watched.yml
   - Most Watched Daily (https://trakt.tv/shows/watched/daily)
   - Most Watched Weekly (https://trakt.tv/shows/watched/weekly)
   - Most Watched Monthly (https://trakt.tv/shows/watched/monthly)
