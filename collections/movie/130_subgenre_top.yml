@@ -529,6 +529,21 @@ collections:
                     votes.gte: 1000
                 }
 
+  "Top Rated in Exploitation":
+    file_poster: config/assets/_subgenre_top/subgenre_top_exploitation.png
+    schedule: weekly(wednesday)
+    summary: "Top rated movies in Exploitation"
+    template: {
+                    keyword: "exploitation-film",
+                    language: "en",
+                    letterboxd_extra_1: "https://letterboxd.com/axeman/list/exploitation/by/rating/",
+                    letterboxd_list: "theme-exploitation",
+                    name: sub_genre,
+                    rating.gte: 3,
+                    type: "movie,tv_movie",
+                    votes.gte: 100
+                }
+
   "Top Rated in Fairytales":
     file_poster: config/assets/_subgenre_top/subgenre_top_fairytales.png
     schedule: weekly(wednesday)
