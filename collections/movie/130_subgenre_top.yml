@@ -107,7 +107,7 @@ collections:
 
   "Top Rated in Animatronic":
     file_poster: config/assets/_subgenre_top/subgenre_top_animatronic.png
-    schedule: weekly(friday)
+    schedule: weekly(monday)
     summary: "Top rated movies in Puppets"
     template: {
                     keyword.any: "animatronic,puppetry",
