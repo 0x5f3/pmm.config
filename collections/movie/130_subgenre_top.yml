@@ -572,6 +572,20 @@ collections:
                     votes.gte: 1000
                 }
 
+  "Top Rated in Futuristic":
+    file_poster: config/assets/_subgenre_top/subgenre_top_futuristic.png
+    schedule: weekly(wednesday)
+    summary: "Top rated movies in Futuristic"
+    template: {
+                    keyword: "future",
+                    language: "en",
+                    letterboxd_list: "theme-futuristic",
+                    name: sub_genre,
+                    rating.gte: 5,
+                    type: "movie,tv_movie",
+                    votes.gte: 1000
+                }
+
   "Top Rated in Gangster":
     file_poster: config/assets/_subgenre_top/subgenre_top_gangster.png
     schedule: weekly(wednesday)
