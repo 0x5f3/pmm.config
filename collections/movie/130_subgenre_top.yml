@@ -105,6 +105,20 @@ collections:
                     votes.gte: 1000
                 }
 
+  "Top Rated in Animatronic":
+    file_poster: config/assets/_subgenre_top/subgenre_top_animatronic.png
+    schedule: weekly(friday)
+    summary: "Top rated movies in Puppets"
+    template: {
+                    keyword.any: "animatronic,puppetry",
+                    language: "en",
+                    letterboxd_list: "theme-animatronic",
+                    name: sub_genre,
+                    rating.gte: 2,
+                    type: "movie,tv_movie",
+                    votes.gte: 100
+                }
+
   "Top Rated in Anti-Hero":
     file_poster: config/assets/_subgenre_top/subgenre_top_anti-hero.png
     schedule: weekly(monday)
