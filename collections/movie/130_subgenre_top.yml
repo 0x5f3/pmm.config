@@ -268,8 +268,8 @@ collections:
     template: {
                     keyword: "chick-flick",
                     language: "en",
-                    letterboxd_extra_1: "https://letterboxd.com/akookieforyou/list/chick-flicks/",
-                    letterboxd_extra_2: "https://letterboxd.com/marialuisacctc/list/women-have-superior-taste-that-is-why-these/",
+                    letterboxd_extra_1: "https://letterboxd.com/akookieforyou/list/chick-flicks/by/rating/",
+                    letterboxd_extra_2: "https://letterboxd.com/marialuisacctc/list/women-have-superior-taste-that-is-why-these/by/rating/",
                     letterboxd_list: "theme-chick-flick",
                     name: sub_genre,
                     rating.gte: 5,
@@ -625,6 +625,21 @@ collections:
                     keyword: "gothic",
                     language: "en",
                     letterboxd_list: "theme-gothic",
+                    name: sub_genre,
+                    rating.gte: 2,
+                    type: "movie,tv_movie",
+                    votes.gte: 100
+                }
+
+  "Top Rated in Grindhouse":
+    file_poster: config/assets/_subgenre_top/subgenre_top_grindhouse.png
+    schedule: weekly(wednesday)
+    summary: "Top rated movies in Grindhouse"
+    template: {
+                    keyword: "grindhouse",
+                    language: "en",
+                    letterboxd_extra_1: "https://letterboxd.com/narpjay/list/exploitation-films-b-movie-cheese-grindhouse/by/rating/",
+                    letterboxd_list: "theme-grindhouse",
                     name: sub_genre,
                     rating.gte: 2,
                     type: "movie,tv_movie",
@@ -1027,7 +1042,7 @@ collections:
     template: {
                     keyword: "prehistoric-times",
                     language: "en",
-                    letterboxd_extra_1: "https://letterboxd.com/mikkelhh/list/before-civilization-prehistoric-films/",
+                    letterboxd_extra_1: "https://letterboxd.com/mikkelhh/list/before-civilization-prehistoric-films/by/rating/",
                     letterboxd_list: "theme-prehistoric",
                     name: sub_genre,
                     rating.gte: 2,
@@ -1098,7 +1113,7 @@ collections:
     template: {
                     keyword: "remake",
                     language: "en",
-                    letterboxd_extra_1: "https://letterboxd.com/l_shelby/list/remakes/",
+                    letterboxd_extra_1: "https://letterboxd.com/l_shelby/list/remakes/by/rating/",
                     letterboxd_list: "theme-remake",
                     name: sub_genre,
                     rating.gte: 5,
@@ -1175,7 +1190,7 @@ collections:
     template: {
                     keyword: "samurai,sword-fight",
                     language: "en",
-                    letterboxd_extra_1: "https://letterboxd.com/jhcrotinger/list/samurai/",
+                    letterboxd_extra_1: "https://letterboxd.com/jhcrotinger/list/samurai/by/rating/",
                     letterboxd_list: "theme-samurai",
                     name: sub_genre,
                     rating.gte: 2,
@@ -1308,7 +1323,7 @@ collections:
     template: {
                     keyword: "stop-motion",
                     language: "en",
-                    letterboxd_extra_1: "https://letterboxd.com/savage_/list/stop-motion/",
+                    letterboxd_extra_1: "https://letterboxd.com/savage_/list/stop-motion/by/rating/",
                     letterboxd_list: "theme-stop-motion",
                     name: sub_genre,
                     rating.gte: 5,
