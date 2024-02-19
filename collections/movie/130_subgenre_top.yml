@@ -3,6 +3,7 @@
 templates:
   sub_genre:
     collection_mode: hide
+    collection_order: custom
     delete_not_scheduled: false
     limit: 250
     sort_title: "+130_<<collection_name>>"
@@ -17,7 +18,7 @@ templates:
       keyword.any: <<keyword.any>>
       keyword: <<keyword>>
       language: <<language>>
-      limit: 1000
+      limit: 500
       rating.gte: <<rating.gte>>
       sort_by: rating.desc
       type: <<type>>
