@@ -210,8 +210,7 @@ collections:
     schedule: weekly(monday)
     summary: "Top rated movies in Boxing"
     template: {
-                    imdb_extra_1: "https://www.imdb.com/search/keyword/?title_type=movie,tv_movie&user_rating=2.0,10.0&num_votes=100,&keywords=boxing-champion&languages=en&sort=user_rating,desc",
-                    keyword: "boxing",
+                    keyword.any: "boxing,boxing-champion",
                     language: "en",
                     letterboxd_list: "theme-boxing",
                     name: sub_genre,
