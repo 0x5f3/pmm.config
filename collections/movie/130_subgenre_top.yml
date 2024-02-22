@@ -190,6 +190,20 @@ collections:
                     votes.gte: 1000
                 }
 
+  "Top Rated in Blaxploitation":
+    file_poster: config/assets/_subgenre_top/subgenre_top_blaxploitation.png
+    schedule: weekly(monday)
+    summary: "Top rated movies in Blaxploitation"
+    template: {
+                    keyword: "blaxploitation",
+                    language: "en",
+                    letterboxd_list: "theme-blaxploitation",
+                    name: sub_genre,
+                    rating.gte: 2,
+                    type: "movie,tv_movie",
+                    votes.gte: 100
+                }
+
   "Top Rated in Black Comedy":
     file_poster: config/assets/_subgenre_top/subgenre_top_black-comedy.png
     schedule: weekly(monday)
@@ -732,6 +746,20 @@ collections:
                     votes.gte: 1000
                 }
 
+  "Top Rated in LGBTQ+":
+    file_poster: config/assets/_subgenre_top/subgenre_top_lgbtq.png
+    schedule: weekly(wednesday)
+    summary: "Top rated movies in LGBTQ+"
+    template: {
+                    keyword.any: "lgbtq,lgbtqia,lgbtqi,gay,lesbianism,homosexuality,gay-interest",
+                    language: "en",
+                    letterboxd_list: "theme-lgbtq",
+                    name: sub_genre,
+                    rating.gte: 5,
+                    type: "movie,tv_movie",
+                    votes.gte: 1000
+                }
+
   "Top Rated in Martial-Arts":
     file_poster: config/assets/_subgenre_top/subgenre_top_martial-arts.png
     schedule: weekly(wednesday)
@@ -906,6 +934,20 @@ collections:
                     rating.gte: 5,
                     type: "movie,tv_movie",
                     votes.gte: 1000
+                }
+
+  "Top Rated in Nunsploitation":
+    file_poster: config/assets/_subgenre_top/subgenre_top_nunsploitation.png
+    schedule: weekly(thursday)
+    summary: "Top rated movies in Nunsploitation"
+    template: {
+                    keyword: "nunsploitation",
+                    language: "en",
+                    letterboxd_list: "theme-nunsploitation",
+                    name: sub_genre,
+                    rating.gte: 2,
+                    type: "movie,tv_movie",
+                    votes.gte: 100
                 }
 
   "Top Rated in Occult":
@@ -1098,7 +1140,7 @@ collections:
     schedule: weekly(friday)
     summary: "Top rated movies in Psychological"
     template: {
-                    keyword: "psychological",
+                    keyword.any: "psychological,psychological-horror",
                     language: "en",
                     letterboxd_list: "theme-psychological",
                     name: sub_genre,
