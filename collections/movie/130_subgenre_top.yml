@@ -1451,7 +1451,7 @@ collections:
                     language: "en",
                     letterboxd_list: "theme-surrealism",
                     name: sub_genre,
-                    rating.gte: 5,
+                    rating.gte: 7,
                     type: "movie,tv_movie",
                     votes.gte: 1000
                 }
