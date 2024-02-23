@@ -1033,6 +1033,20 @@ collections:
                     votes.gte: 1000
                 }
 
+  "Top Rated in Parody":
+    file_poster: config/assets/_subgenre_top/subgenre_top_parody.png
+    schedule: weekly(thursday)
+    summary: "Top rated movies in Parody"
+    template: {
+                    keyword.any: "parody,parody-comedy",
+                    language: "en",
+                    letterboxd_list: "theme-parody",
+                    name: sub_genre,
+                    rating.gte: 5,
+                    type: "movie,tv_movie",
+                    votes.gte: 1000
+                }
+
   "Top Rated in Period Drama":
     file_poster: config/assets/_subgenre_top/subgenre_top_period-drama.png
     schedule: weekly(friday)
