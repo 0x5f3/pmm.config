@@ -216,21 +216,6 @@ collections:
                     votes.gte: 100
                 }
 
-  "Top Rated in Black Comedy":
-    file_poster: config/assets/_subgenre_top/subgenre_top_black-comedy.png
-    schedule: weekly(monday)
-    summary: "Top rated movies in Black Comedy"
-    template: {
-                    genre: "comedy",
-                    keyword: "black-comedy",
-                    language: "en",
-                    letterboxd_list: "theme-black-comedy",
-                    name: sub_genre,
-                    rating.gte: 5,
-                    type: "movie,tv_movie",
-                    votes.gte: 1000
-                }
-
   "Top Rated in Boxing":
     file_poster: config/assets/_subgenre_top/subgenre_top_boxing.png
     schedule: weekly(monday)
@@ -409,6 +394,21 @@ collections:
                     keyword: "cyberpunk,future",
                     language: "en",
                     letterboxd_list: "theme-cyberpunk",
+                    name: sub_genre,
+                    rating.gte: 5,
+                    type: "movie,tv_movie",
+                    votes.gte: 1000
+                }
+
+  "Top Rated in Dark Comedy":
+    file_poster: config/assets/_subgenre_top/subgenre_top_dark-comedy.png
+    schedule: weekly(tuesday)
+    summary: "Top rated movies in Dark Comedy"
+    template: {
+                    genre: "comedy",
+                    keyword.any: "black-comedy,dark-comedy",
+                    language: "en",
+                    letterboxd_list: "theme-dark-comedy",
                     name: sub_genre,
                     rating.gte: 5,
                     type: "movie,tv_movie",
