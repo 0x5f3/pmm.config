@@ -31,23 +31,17 @@ templates:
       - <<imdb_extra_5>>
     letterboxd_list_details:
       - url: https://letterboxd.com/ediblehedgehog/list/<<letterboxd_list>>/by/rating/
-        rating: 50-100
         limit: 250
-      - url: <<letterboxd_list_details_1>>
-        rating: 50-100
-        limit: 250
-      - url: <<letterboxd_list_details_2>>
-        rating: 50-100
-        limit: 250
-      - url: <<letterboxd_list_details_3>>
-        rating: 50-100
-        limit: 250
-      - url: <<letterboxd_list_details_4>>
-        rating: 50-100
-        limit: 250
-      - url: <<letterboxd_list_details_5>>
-        rating: 50-100
-        limit: 250
+      - url: <<letterboxd_list_details_url_1>>
+        limit: <<letterboxd_list_details_limit_1>>
+      - url: <<letterboxd_list_details_url_2>>
+        limit: <<letterboxd_list_details_limit_2>>
+      - url: <<letterboxd_list_details_url_3>>
+        limit: <<letterboxd_list_details_limit_3>>
+      - url: <<letterboxd_list_details_url_4>>
+        limit: <<letterboxd_list_details_limit_4>>
+      - url: <<letterboxd_list_details_url_5>>
+        limit: <<letterboxd_list_details_limit_5>>
     trakt_list:
       - <<trakt_extra_1>>
       - <<trakt_extra_2>>
@@ -64,11 +58,16 @@ templates:
       - imdb_extra_5
       - keyword
       - keyword.any
-      - letterboxd_list_details_1
-      - letterboxd_list_details_2
-      - letterboxd_list_details_3
-      - letterboxd_list_details_4
-      - letterboxd_list_details_5
+      - letterboxd_list_details_url_1
+      - letterboxd_list_details_url_2
+      - letterboxd_list_details_url_3
+      - letterboxd_list_details_url_4
+      - letterboxd_list_details_url_5
+      - letterboxd_list_details_limit_1
+      - letterboxd_list_details_limit_2
+      - letterboxd_list_details_limit_3
+      - letterboxd_list_details_limit_4
+      - letterboxd_list_details_limit_5
       - trakt_extra_1
       - trakt_extra_2
       - trakt_extra_3
@@ -279,8 +278,10 @@ collections:
     template: {
                     keyword: "chick-flick",
                     language: "en",
-                    letterboxd_list_details_1: "https://letterboxd.com/akookieforyou/list/chick-flicks/by/rating/",
-                    letterboxd_list_details_2: "https://letterboxd.com/marialuisacctc/list/women-have-superior-taste-that-is-why-these/by/rating/",
+                    letterboxd_list_details_url_1: "https://letterboxd.com/akookieforyou/list/chick-flicks/by/rating/",
+                    letterboxd_list_details_limit_1: 250,
+                    letterboxd_list_details_url_2: "https://letterboxd.com/marialuisacctc/list/women-have-superior-taste-that-is-why-these/by/rating/",
+                    letterboxd_list_details_limit_2: 250,
                     letterboxd_list: "theme-chick-flick",
                     name: sub_genre,
                     rating.gte: 5,
@@ -562,7 +563,8 @@ collections:
     template: {
                     keyword: "exploitation-film",
                     language: "en",
-                    letterboxd_list_details_1: "https://letterboxd.com/axeman/list/exploitation/by/rating/",
+                    letterboxd_list_details_url_1: "https://letterboxd.com/axeman/list/exploitation/by/rating/",
+                    letterboxd_list_details_limit_1: 250,
                     letterboxd_list: "theme-exploitation",
                     name: sub_genre,
                     rating.gte: 3,
@@ -679,7 +681,8 @@ collections:
     template: {
                     keyword: "grindhouse",
                     language: "en",
-                    letterboxd_list_details_1: "https://letterboxd.com/narpjay/list/exploitation-films-b-movie-cheese-grindhouse/by/rating/",
+                    letterboxd_list_details_url_1: "https://letterboxd.com/narpjay/list/exploitation-films-b-movie-cheese-grindhouse/by/rating/",
+                    letterboxd_list_details_limit_1: 250,
                     letterboxd_list: "theme-grindhouse",
                     name: sub_genre,
                     rating.gte: 2,
@@ -1125,7 +1128,8 @@ collections:
     template: {
                     keyword: "prehistoric-times",
                     language: "en",
-                    letterboxd_list_details_1: "https://letterboxd.com/mikkelhh/list/before-civilization-prehistoric-films/by/rating/",
+                    letterboxd_list_details_url_1: "https://letterboxd.com/mikkelhh/list/before-civilization-prehistoric-films/by/rating/",
+                    letterboxd_list_details_limit_1: 250,
                     letterboxd_list: "theme-prehistoric",
                     name: sub_genre,
                     rating.gte: 2,
@@ -1196,7 +1200,8 @@ collections:
     template: {
                     keyword: "remake",
                     language: "en",
-                    letterboxd_list_details_1: "https://letterboxd.com/l_shelby/list/remakes/by/rating/",
+                    letterboxd_list_details_url_1: "https://letterboxd.com/l_shelby/list/remakes/by/rating/",
+                    letterboxd_list_details_limit_1: 250,
                     letterboxd_list: "theme-remake",
                     name: sub_genre,
                     rating.gte: 5,
@@ -1273,7 +1278,8 @@ collections:
     template: {
                     keyword: "samurai,sword-fight",
                     language: "en",
-                    letterboxd_list_details_1: "https://letterboxd.com/jhcrotinger/list/samurai/by/rating/",
+                    letterboxd_list_details_url_1: "https://letterboxd.com/jhcrotinger/list/samurai/by/rating/",
+                    letterboxd_list_details_limit_1: 250,
                     letterboxd_list: "theme-samurai",
                     name: sub_genre,
                     rating.gte: 2,
@@ -1406,7 +1412,8 @@ collections:
     template: {
                     keyword: "stop-motion",
                     language: "en",
-                    letterboxd_list_details_1: "https://letterboxd.com/savage_/list/stop-motion/by/rating/",
+                    letterboxd_list_details_url_1: "https://letterboxd.com/savage_/list/stop-motion/by/rating/",
+                    letterboxd_list_details_limit_1: 250,
                     letterboxd_list: "theme-stop-motion",
                     name: sub_genre,
                     rating.gte: 5,
