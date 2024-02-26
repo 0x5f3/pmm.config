@@ -1,0 +1,164 @@
+```
+- _suggested.yml
+  - Random TV shows (English)
+  - Recently Added TV shows (English)
+  - Recently Released TV shows (English)
+  - Recommended TV shows (Trakt user's personal favourites and/or trakt/letterboxd lists)
+  - Suggested TV shows (Trakt most favourited daily/weekly/monthly/yearly/all charts and/or trakt/letterboxd lists)
+  - Trending TV shows (https://mdblist.com/lists/archivist/tv-trending)
+  - Popular TV shows (https://mdblist.com/lists/archivist/tv-popular)
+  - Top Rated TV shows (https://mdblist.com/lists/archivist/tv-top-rated)
+
+- _unwatched.yml
+  - Unwatched: Random TV shows
+  - Unwatched: Recommended TV shows
+  - Unwatched: Suggested TV shows
+  - Unwatched: Popular TV shows
+  - Unwatched: Top Rated TV shows
+
+- _watched.yml
+  - Most Watched Daily (https://trakt.tv/shows/watched/daily)
+  - Most Watched Weekly (https://trakt.tv/shows/watched/weekly)
+  - Most Watched Monthly (https://trakt.tv/shows/watched/monthly)
+  - Most Watched Yearly (https://trakt.tv/shows/watched/yearly)
+
+- _parental.yml
+  - Parental: All (https://mdblist.com/lists/archivist/list-parental)
+  - Parental: Random
+  - Parental: Recently Added
+  - Parental: Recently Released
+  - Parental: Top Rated
+
+- _documentary.yml
+  - Documentaries: All
+  - Documentaries: Random
+  - Documentaries: Recently Added
+  - Documentaries: Recently Released
+  - Documentaries: Top Rated
+
+- _awards.yml
+  - Emmy Award Winners
+  - Emmy Award Nominees
+  - Golden Globes Winners
+  - Golden Globes Nominees
+  - BAFTA Winners
+  - Critics Choice Award Winners
+
+- _year_top.yml
+  - Top Rated of 2024
+  - Top Rated of 2023
+  - Top Rated of 2022
+  - Top Rated of 2021
+  - Top Rated of 2020
+  - Top Rated of 2019
+  - Top Rated of 2018
+  - Top Rated of 2017
+  - Top Rated of 2016
+  - Top Rated of 2015
+  - Top Rated of 2014
+  - Top Rated of 2013
+  - Top Rated of 2012
+  - Top Rated of 2011
+  - Top Rated of 2010
+
+- _decades_top.yml
+  - Top Rated of the 2020s
+  - Top Rated of the 2010s
+  - Top Rated of the 2000s
+  - Top Rated of the 1990s
+  - Top Rated of the 1980s
+  - Top Rated of the 1970s
+  - Top Rated of the 1960s
+  - Top Rated of the 1950s
+  - Top Rated of the 1940s
+
+- _genre_popular.yml
+  - Popular in Action
+  - Popular in Adventure
+  - Popular in Animation
+  - Popular in Biography
+  - Popular in Comedy
+  - Popular in Documentary
+  - Popular in Drama
+  - Popular in Family
+  - Popular in Fantasy
+  - Popular in History
+  - Popular in Horror
+  - Popular in Music
+  - Popular in Musicals
+  - Popular in Mystery
+  - Popular in Romance
+  - Popular in Sci-Fi
+  - Popular in Sport
+  - Popular in Thriller
+  - Popular in War
+  - Popular in Western
+
+- _genre_top.yml
+  - Top Rated in Action
+  - Top Rated in Adventure
+  - Top Rated in Animation
+  - Top Rated in Biography
+  - Top Rated in Comedy
+  - Top Rated in Documentary
+  - Top Rated in Drama
+  - Top Rated in Family
+  - Top Rated in Fantasy
+  - Top Rated in History
+  - Top Rated in Horror
+  - Top Rated in Music
+  - Top Rated in Musicals
+  - Top Rated in Mystery
+  - Top Rated in Romance
+  - Top Rated in Sci-Fi
+  - Top Rated in Sport
+  - Top Rated in Thriller
+  - Top Rated in War
+  - Top Rated in Western
+
+- _network.yml
+  - A&E
+  - ABC
+  - Adult Swim
+  - Amazon
+  - AMC
+  - Animal Planet
+  - Apple+
+  - BBC
+  - Bravo
+  - Cartoon Network
+  - CBS
+  - Channel 4
+  - Cinemax
+  - Comedy Central
+  - Dave
+  - Discovery
+  - Disney
+  - FOX
+  - Freeform
+  - FX
+  - Hallmark
+  - HBO
+  - History
+  - HGTV
+  - Hulu
+  - ITV
+  - MTV
+  - National Geographic
+  - NBC
+  - Netflix
+  - Nickelodeon
+  - Paramount
+  - PBS
+  - Peacock
+  - Showtime
+  - Shudder
+  - SKY
+  - Smithsonian
+  - Starz
+  - Syfy
+  - TBS
+  - TLC
+  - TNT
+  - YouTube
+```
