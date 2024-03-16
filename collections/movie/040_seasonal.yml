@@ -6,7 +6,7 @@ templates:
     collection_order: alpha
     delete_not_scheduled: true
     limit: 1000
-    sort_title: "+040_<<num>>_<<collection_name>>"
+    sort_title: "+040_<<collection_name>>"
     summary: "A timed collection of <<holiday>> movies and other movies that may relate to the holiday."
     sync_mode: sync
     visible_home: false
